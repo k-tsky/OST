@@ -1,0 +1,189 @@
+R6#show isis database level-1 verbose
+
+IS-IS Level-1 Link State Database:
+LSPID                 LSP Seq Num  LSP Checksum  LSP Holdtime/Rcvd      ATT/P/OL
+R4.00-00              0x00000016   0xC191                1053/1199      0/0/0
+  Area Address: 49.0051
+  NLPID:        0xCC 0x8E 
+  Hostname: R4
+  Metric: 10         IS R6.02
+  Metric: 10         IS R4.01
+  IP Address:   4.4.4.4
+  Metric: 10         IP 10.0.204.0 255.255.255.0
+  Metric: 10         IP 4.4.4.4 255.255.255.255
+  Metric: 10         IP 10.0.104.0 255.255.255.0
+  IPv6 Address: 2001:DB8::4
+  Metric: 10         IPv6 2001:DB8:204::/64
+    Prefix-attr: X:0 R:0 N:0
+  Metric: 10         IPv6 2001:DB8::4/128
+    Prefix-attr: X:0 R:0 N:1
+  Metric: 10         IPv6 2001:DB8:104::/64
+    Prefix-attr: X:0 R:0 N:0
+R4.01-00              0x0000000B   0xD868                1104/1199      0/0/0
+  Metric: 0          IS R4.00
+  Metric: 0          IS R5.00
+          
+R6#show isis database level-2 verbose
+
+IS-IS Level-2 Link State Database:
+LSPID                 LSP Seq Num  LSP Checksum  LSP Holdtime/Rcvd      ATT/P/OL
+R2.00-00              0x00000010   0xAABA                 929/1198      0/0/0
+  Area Address: 49.0049
+  NLPID:        0xCC 0x8E 
+  Hostname: R2
+  Metric: 10         IS R3.02
+  Metric: 10         IS R2.03
+  IP Address:   10.0.102.2
+  Metric: 10         IP 10.0.12.0 255.255.255.0
+  Metric: 10         IP 10.0.23.0 255.255.255.0
+  Metric: 10         IP 10.0.102.0 255.255.255.0
+  Metric: 20         IP 10.0.13.0 255.255.255.0
+  Metric: 20         IP 10.0.203.0 255.255.255.0
+  Metric: 20         IP 8.8.8.0 255.255.255.0
+  Metric: 10         IP 1.1.1.1 255.255.255.255
+  IPv6 Address: 2001:DB8:102::2
+  IPv6 Address: 2001:DB8:203::3
+  Metric: 10         IPv6 2001:DB8:12::/64
+    Prefix-attr: X:0 R:0 N:0
+  Metric: 10         IPv6 2001:DB8:13::/64
+    Prefix-attr: X:0 R:0 N:0
+  Metric: 10         IPv6 2001:DB8:23::/64
+    Prefix-attr: X:0 R:0 N:0
+  Metric: 10         IPv6 2001:DB8:102::/64
+    Prefix-attr: X:0 R:0 N:0
+  Metric: 10         IPv6 2001:DB8:203::/64
+    Prefix-attr: X:0 R:0 N:0
+  Metric: 20         IPv6 2001:DB8::8/128
+    Prefix-attr: X:0 R:1 N:1
+  Metric: 10         IPv6 2001:DB8::1/128
+    Prefix-attr: X:0 R:1 N:0
+R2.03-00              0x0000000A   0x5278                 531/1198      0/0/0
+  Metric: 0          IS R2.00
+  Metric: 0          IS R5.00
+R3.00-00              0x00000015   0x79E4                1069/1199      0/0/0
+  Area Address: 49.0049
+  NLPID:        0xCC 0x8E 
+  Hostname: R3
+  Metric: 10         IS R3.03
+  Metric: 10         IS R3.02
+  IP Address:   10.0.203.3
+  Metric: 10         IP 10.0.13.0 255.255.255.0
+  Metric: 10         IP 10.0.23.0 255.255.255.0
+  Metric: 10         IP 10.0.203.0 255.255.255.0
+  Metric: 20         IP 10.0.12.0 255.255.255.0
+  Metric: 20         IP 10.0.102.0 255.255.255.0
+  Metric: 20         IP 8.8.8.0 255.255.255.0
+  Metric: 10         IP 1.1.1.1 255.255.255.255
+  IPv6 Address: 2001:DB8:203::3
+  Metric: 10         IPv6 2001:DB8:13::/64
+    Prefix-attr: X:0 R:0 N:0
+  Metric: 10         IPv6 2001:DB8:23::/64
+    Prefix-attr: X:0 R:0 N:0
+  Metric: 10         IPv6 2001:DB8:203::/64
+    Prefix-attr: X:0 R:0 N:0
+  Metric: 20         IPv6 2001:DB8:12::/64
+    Prefix-attr: X:0 R:1 N:0
+  Metric: 20         IPv6 2001:DB8:102::/64
+    Prefix-attr: X:0 R:1 N:0
+  Metric: 20         IPv6 2001:DB8::8/128
+    Prefix-attr: X:0 R:1 N:1
+  Metric: 10         IPv6 2001:DB8::1/128
+    Prefix-attr: X:0 R:1 N:0
+R3.02-00              0x00000009   0x16B7                 581/1199      0/0/0
+  Metric: 0          IS R3.00
+  Metric: 0          IS R2.00
+R3.03-00              0x0000000A   0x7156                 421/1199      0/0/0
+  Metric: 0          IS R3.00
+  Metric: 0          IS R6.00
+R5.00-00              0x0000001A   0xFF97                 999/1198      0/0/0
+  Area Address: 49.0051
+  NLPID:        0xCC 0x8E 
+  Hostname: R5
+  Metric: 10         IS R2.03
+  IP Address:   10.0.104.5
+  Metric: 10         IP 10.0.104.0 255.255.255.0
+  Metric: 10         IP 10.0.102.0 255.255.255.0
+  Metric: 20         IP 4.4.4.4 255.255.255.255
+  Metric: 20         IP 10.0.204.0 255.255.255.0
+  Metric: 30         IP 10.0.203.0 255.255.255.0
+  IPv6 Address: 2001:DB8:102::5
+  Metric: 10         IPv6 2001:DB8:104::/64
+    Prefix-attr: X:0 R:0 N:0
+  Metric: 10         IPv6 2001:DB8:102::/64
+    Prefix-attr: X:0 R:0 N:0
+  Metric: 20         IPv6 2001:DB8::4/128
+    Prefix-attr: X:0 R:1 N:1
+  Metric: 30         IPv6 2001:DB8:203::/64
+    Prefix-attr: X:0 R:1 N:0
+  Metric: 20         IPv6 2001:DB8:204::/64
+    Prefix-attr: X:0 R:1 N:0
+R6.00-00            * 0x00000019   0xF13A                1106/*         0/0/0
+  Area Address: 49.0051
+  NLPID:        0xCC 0x8E 
+  Hostname: R6
+  Metric: 10         IS R3.03
+  IP Address:   10.0.204.6
+  Metric: 10         IP 10.0.203.0 255.255.255.0
+  Metric: 10         IP 10.0.204.0 255.255.255.0
+  Metric: 20         IP 4.4.4.4 255.255.255.255
+  Metric: 20         IP 10.0.104.0 255.255.255.0
+  Metric: 30         IP 10.0.102.0 255.255.255.0
+  IPv6 Address: 2001:DB8:204::6
+  Metric: 10         IPv6 2001:DB8:203::/64
+    Prefix-attr: X:0 R:0 N:0
+  Metric: 10         IPv6 2001:DB8:204::/64
+    Prefix-attr: X:0 R:0 N:0
+          
+R6#show isis database level-1 verbose
+
+IS-IS Level-1 Link State Database:
+LSPID                 LSP Seq Num  LSP Checksum  LSP Holdtime/Rcvd      ATT/P/OL
+R4.00-00              0x00000017   0xBF92                1051/1199      0/0/0
+  Area Address: 49.0051
+  NLPID:        0xCC 0x8E 
+  Hostname: R4
+  Metric: 10         IS R6.02
+  Metric: 10         IS R4.01
+  IP Address:   4.4.4.4
+  Metric: 10         IP 10.0.204.0 255.255.255.0
+  Metric: 10         IP 4.4.4.4 255.255.255.255
+  Metric: 10         IP 10.0.104.0 255.255.255.0
+  IPv6 Address: 2001:DB8::4
+  Metric: 10         IPv6 2001:DB8:204::/64
+    Prefix-attr: X:0 R:0 N:0
+  Metric: 10         IPv6 2001:DB8::4/128
+    Prefix-attr: X:0 R:0 N:1
+  Metric: 10         IPv6 2001:DB8:104::/64
+    Prefix-attr: X:0 R:0 N:0
+R4.01-00              0x0000000C   0xD669                1183/1199      0/0/0
+  Metric: 0          IS R4.00
+  Metric: 0          IS R5.00
+R5.00-00              0x0000001C   0x6873                1050/1198      1/0/0
+  Area Address: 49.0051
+  NLPID:        0xCC 0x8E 
+  Hostname: R5
+  Metric: 10         IS R4.01
+  IP Address:   10.0.104.5
+  Metric: 10         IP 10.0.104.0 255.255.255.0
+  Metric: 10         IP 10.0.102.0 255.255.255.0
+  IPv6 Address: 2001:DB8:102::5
+  Metric: 10         IPv6 2001:DB8:104::/64
+    Prefix-attr: X:0 R:0 N:0
+  Metric: 10         IPv6 2001:DB8:102::/64
+    Prefix-attr: X:0 R:0 N:0
+R6.00-00            * 0x0000000F   0x3D70                 544/*         1/0/0
+  Area Address: 49.0051
+  NLPID:        0xCC 0x8E 
+  Hostname: R6
+  Metric: 10         IS R6.02
+  IP Address:   10.0.204.6
+  Metric: 10         IP 10.0.203.0 255.255.255.0
+  Metric: 10         IP 10.0.204.0 255.255.255.0
+  IPv6 Address: 2001:DB8:204::6
+  Metric: 10         IPv6 2001:DB8:203::/64
+    Prefix-attr: X:0 R:0 N:0
+  Metric: 10         IPv6 2001:DB8:204::/64
+    Prefix-attr: X:0 R:0 N:0
+R6.02-00            * 0x0000000B   0xC674                 785/*         0/0/0
+  Metric: 0          IS R6.00
+  Metric: 0          IS R4.00
