@@ -1,10 +1,16 @@
 #let project(
   title: "",
-  subtitle: "Secure Software",
+  subtitle: "Summary",
   authors: (),
   date: datetime.today().display("[day] [month repr:long] [year]"),
   body,
 ) = {
+  let author-list = if type(authors) == str {
+    (authors,)
+  } else {
+    authors
+  }
+
   // Base text settings
   set text(font: "Calibri", size: 11pt)
 
@@ -21,7 +27,7 @@
         #grid(
           columns: (1fr, 1fr),
           align(left, title),
-          align(right, authors.join(", "))
+          align(right, author-list.join(", "))
         )
         #v(-0.5em)
         #line(length: 100%, stroke: 0.5pt + gray)
@@ -58,7 +64,7 @@
 
       #text(size: 12pt, weight: 600, "Authors")
       #v(0.5em)
-      #for author in authors [
+      #for author in author-list [
         #author \
       ]
 

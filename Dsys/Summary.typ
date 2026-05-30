@@ -1,8 +1,11 @@
 #import "../template.typ": *
 #show: project.with(
-  title: "Distributed Systems Summary",
+  title: "Distributed Systems",
   authors: ("Katharina Tschirky"),
 )
 
-= Week 1
+//Week 12
+#include "Week12.typ"
+
+
 
