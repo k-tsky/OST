@@ -1,7 +1,5 @@
 = Week 12
-
 == Key takeaways
-
 === Understand how Bitcoin works as a peer-to-peer system
 Bitcoin has no central bank, transactions are created by peers and broadcast to the whole network.
 

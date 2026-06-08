@@ -35,6 +35,21 @@ This line is an example for adding a centered image:
 The final `\` inserts a line break in Typst and can be used as a quick spacing
 helper after the template setup.
 
+The following grid can be used to place contents next to each other:
+```typst
+#grid(
+  columns: (auto, auto),
+  gutter: 2em,
+  [
+    asdf
+  ],
+  [
+    blabla
+  ],
+)
+
+```
+
 ## Quizlet Resources
 
 - [Bsys1](https://quizlet.com/de/karteikarten/bsys1-1083031410?i=5ecu67&x=1jqt)
