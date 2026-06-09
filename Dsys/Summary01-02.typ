@@ -1,9 +1,9 @@
-== Why do we need Distributed Systems - Key takeaways
-=== Why do we need distributed systems?
+= Key takeaways (Week 1-2) - Why do we need Distributed Systems
+== Why do we need distributed systems?
 
 We need distributed systems mainly for scaling, location, and fault-tolerance. Distributed systems add complexity, so this should be avoided unless needed.
 
-==== Scaling (if one machine is not enough)
+=== Scaling (if one machine is not enough)
 
 Scaling means increasing system capacity.
 
@@ -31,7 +31,7 @@ Disadvantages:
 - Software adaptation required
 - More complex system with more components
 
-==== Location (to move closer to the user)
+=== Location (to move closer to the user)
 
 Location matters because hardware can get faster, but latency remains limited by the speed of light. Distributed systems can reduce latency by placing systems closer to users, for example with a CDN.
 
@@ -48,7 +48,7 @@ Important points:
 - Copper can be slightly faster than standard fiber, but not by much
 - Traceroute shows network hops, while ping only shows total RTT
 
-==== Fault-tolerance (HW will fail eventually)
+=== Fault-tolerance (HW will fail eventually)
 
 Fault-tolerance means preparing for failures. Hardware will eventually fail, and at scale rare failures become expected.
 
