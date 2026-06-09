@@ -1,19 +1,5 @@
 = Week 1 - Scaling
-== Key takeaways
-=== Why do we need distributed systems?
-We need distributed systems mainly for scaling, location, and fault-tolerance. Distributed Systems add complexity, this should be avoided.
-
-==== Scaling (if one machine is not enough)
-Scaling means using distributed systems when one machine is not enough. Scaling can be vertical, by using more memory or a faster CPU, or horizontal, by using more machines. Horizontal scaling can offer lower cost at massive scale, higher availability, and easier fault-tolerance, but it also requires software adaptation and makes the system more complex.
-
-==== Location (to move closer to the user)
-Location means moving closer to the user. This is one reason distributed systems are needed.
-
-==== Fault-tolerance (HW will fail eventually)
-Fault-tolerance means preparing for hardware failure. Hardware will eventually fail, and horizontal scaling makes it easier to add fault-tolerance and achieve higher availability. Vertical scaling has the risk that hardware failure can cause an outage and makes fault-tolerance more difficult.
-
-== Distributed Systems Motivation
-*Scaling:*
+== Distributed Systems Motivation - Scaling
 - Vertical (scale up), more memory, faster CPU
   - Single Core
     - Amdahl's Law: Your total speedup is limited by the part of the work that cannot be parallelized

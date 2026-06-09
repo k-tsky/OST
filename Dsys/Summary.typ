@@ -4,10 +4,14 @@
   authors: ("Katharina Tschirky"),
 )
 
-//Week 1
+
 #include "Week01.typ"
 #pagebreak()
-//Week 12
+#include "Week02.typ"
+#pagebreak()
+#include "Summary01-02.typ"
+#pagebreak()
+
 #include "Week12.typ"
 
 
