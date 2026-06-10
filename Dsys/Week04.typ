@@ -1,8 +1,17 @@
 = Week 4
 == Key takeaway
 === What is a monorepo, what is a polyrepo?
+*Monorepo:* One repository contains multiple parts of a project, e.g. frontend and backend in separate folders.
+
+*Polyrepo:* A project is split across multiple repositories, e.g. one repo for frontend and one for backend.
+
 === When to use which type?
+*When to use monorepo: *Good when projects are tightly connected, need shared code, or often change together.
+
+*When to use polyrepo: *Good when projects are independent, need separate access control, or are managed by different teams.
+
 === How do AI coding agents change the monorepo vs. polyrepo decision?
+Monorepos are easier for agents because they can see all related code at once. Polyrepos need extra setup and more context management.
 
 == Project setup
 General Rules:
