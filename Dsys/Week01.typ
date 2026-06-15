@@ -24,7 +24,7 @@
     - Currently: RAM prices increasing, fast servers
   ],
   [
-    #align(center, image("img/scaling-economics.png", width: 100%))
+    #align(center, image("img/week01/scaling-economics.png", width: 100%))
   ]
 )
 

@@ -16,12 +16,12 @@ TCP handshakes are not very flexible and can require multiple round trips, espec
 HTTP/3 uses QUIC, which has a 1 RTT connection and security handshake, 0 RTT for known connections, built-in security, and multiplexing where other streams can continue even if one stream has packet loss.
 
 == Networking Layers
-#align(center, image("img/OSI.png", width: 100%))
+#align(center, image("img/week08/OSI.png", width: 100%))
 - Protocols enable an entity/instance to interact with an entity/instance at the same layer in another host
 - Service definitions: provide functionality to an (N)-layer by an (N-1) layer
 - Each PDU (protocol data unit) contains a protocol header and payload, the service data unit (SDU)
 
-#align(center, image("img/pdu.png", width: 90%))
+#align(center, image("img/week08/pdu.png", width: 90%))
 
 == Layer 4 - Transport
 === TCP
@@ -40,7 +40,7 @@ HTTP/3 uses QUIC, which has a 1 RTT connection and security handshake, 0 RTT for
   - TCP tries to correct errors
   ],
   [
-    #align(center, image("img/tcp.png", width: 100%))
+    #align(center, image("img/week08/tcp.png", width: 100%))
   ],
 )
 - Connection establishment
@@ -74,7 +74,7 @@ HTTP/3 uses QUIC, which has a 1 RTT connection and security handshake, 0 RTT for
       - congestion avoidance
       ],
   [
-    #align(center, image("img/tcp-2.png", width: 100%))
+    #align(center, image("img/week08/tcp-2.png", width: 100%))
   ],
 )
   
@@ -97,7 +97,7 @@ Security: Transport Layer Security (TLS)
 
 Total: 3 RTT to send first byte, 4 RTT to receive first byte
 
-#align(center, image("img/tls.png", width: 90%))
+#align(center, image("img/week08/tls.png", width: 90%))
 
 *TLS 1.3: 1 RTT instead of 2*
 - Client Hello, Key Share

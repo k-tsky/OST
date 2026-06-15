@@ -25,6 +25,8 @@
 #pagebreak()
 #include "Week09.typ"
 #pagebreak()
+#include "Week11.typ"
+#pagebreak()
 #include "Week12.typ"
 
 

@@ -30,7 +30,7 @@ Creation of a virtual machine that acts like a real computer with an operating s
     - Isolated user-space instances
     - OS support: isolations
 
-#align(center, image("img/virtualization.png", width: 80%))
+#align(center, image("img/week03/virtualization.png", width: 80%))
 
 === VM vs Container
 #grid(
@@ -314,7 +314,7 @@ Main idea: network namespaces give containers separate network environments whil
     ```
   ],
   [
-    #align(center, image("img/p2p.png", width: 100%))
+    #align(center, image("img/week03/p2p.png", width: 100%))
   ],
 )
 \
@@ -344,7 +344,7 @@ Main idea: network namespaces give containers separate network environments whil
     ```
   ],
   [
-    #align(center, image("img/unreachable-peers.png", width: 100%))
+    #align(center, image("img/week03/unreachable-peers.png", width: 100%))
   ],
 )
 

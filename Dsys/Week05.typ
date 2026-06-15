@@ -13,7 +13,7 @@ Modern software load balancers/reverse proxies such as Traefik, Caddy, Nginx, an
 CORS means Cross-Origin Resource Sharing. Browsers restrict cross-origin HTTP requests from scripts. A common solution is using a reverse proxy so frontend assets and API appear under the same origin. Another workaround is setting Access-Control-Origin during development.
 
 == Load Balancing
-#align(center, image("img/load-balancing.png", width: 90%))
+#align(center, image("img/week05/load-balancing.png", width: 90%))
 
 #grid(
   columns: (auto, auto),
@@ -32,7 +32,7 @@ CORS means Cross-Origin Resource Sharing. Browsers restrict cross-origin HTTP re
     - Provides the flexibility to add or subtract servers as demand dictates
   ],
   [
-    #align(center, image("img/load-balancing-2.png", width: 90%))
+    #align(center, image("img/week05/load-balancing-2.png", width: 90%))
   ],
 )
 
@@ -187,7 +187,7 @@ Peak exponentially weighted moving average:
 - Disadvantage: server rendering for every request (caching), UI logic on the server
 - Static site generation (SSG): pre-render HTML/CSS/JS: only once, regenerate if content changes
 
-#align(center, image("img/SSR.png", width: 90%))
+#align(center, image("img/week05/SSR.png", width: 90%))
 
 == Single Page Application SPA / CSR
 - Interactions occur within a single web page
@@ -212,7 +212,7 @@ Peak exponentially weighted moving average:
   - `/ -> index.html`
   - `/user -> user.html`
 
-#align(center, image("img/SPA.png", width: 90%))
+#align(center, image("img/week05/SPA.png", width: 90%))
 
 === CORS
 #grid(
@@ -230,7 +230,7 @@ Peak exponentially weighted moving average:
       - Golang: w.Header().Set("Access-Control-Origin", "`*`")
   ],
   [
-    #align(center, image("img/CORS.png", width: 100%))
+    #align(center, image("img/week05/CORS.png", width: 100%))
   ],
 )
 

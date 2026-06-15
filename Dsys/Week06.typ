@@ -57,7 +57,7 @@ Afterwards, the client can use `tools/call` to execute one of these tools. The r
 In short, `tools/list` is used to ask "what can you do?", while `tools/call` is used to say "run this tool with these arguments".
 
 === MCP Sequence Diagram
-#align(center, image("img/MCP.png", width: 100%))
+#align(center, image("img/week06/MCP.png", width: 100%))
 
 === Simple MCP Server
 A simple MCP server can expose tools that an LLM is allowed to call. In this example, the server provides one tool called `measure_endpoint`, which measures the response time of a given URL.
@@ -212,7 +212,7 @@ Flow:
 6. Client sends this JWT with future requests
 
 === Access Token / Refresh Token
-#align(center, image("img/access-refresh-token.png", width: 100%))
+#align(center, image("img/week06/access-refresh-token.png", width: 100%))
 
 *Access Token:*
 - Short lifetime, e.g 10min
@@ -239,5 +239,5 @@ Flow:
     - Authorization code returned to app
 - PKCE: variant for clients that cannot store a client secret securely (mobile, SPA)
 - Token issued are typically JWTs (access + refresh)
-#align(center, image("img/OAuth.png", width: 80%))
+#align(center, image("img/week06/OAuth.png", width: 80%))
 

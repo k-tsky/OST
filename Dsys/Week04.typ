@@ -34,7 +34,7 @@ Split up:
   - 1 sub-directory with frontend, 1 sub-directory with backend etc.
 - Easier setup for AI agents
 
-#align(center, image("img/monorepo.png", width: 90%))
+#align(center, image("img/week04/monorepo.png", width: 90%))
 
 == Polyrepo (Manyrepo / Multirepo)
 - Multiple repository for a project

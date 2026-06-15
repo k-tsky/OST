@@ -41,7 +41,7 @@ A wallet has public-private keys (wallet.dat)
 - Peer A broadcasts the transaction to all the peers in the network
 - Transaction stored in blocks → block is created / verified ~10min
 
-#align(center, image("img/transaction.png", width: 100%))
+#align(center, image("img/week12/transaction.png", width: 100%))
 
 == Key Bitcoin Operation
 Private key authorizes the transation:
@@ -50,7 +50,7 @@ Private key authorizes the transation:
 - In UTXO (unspent transaction output) systems, coins are stored as unspent pieces from earlier transactions
 - When one piece is used, the whole piece is spent, the rest comes back as new change
 
-#align(center, image("img/bitcoin-operation.png", width: 100%))
+#align(center, image("img/week12/bitcoin-operation.png", width: 100%))
 
 == Blockchain
 #grid(
@@ -71,7 +71,7 @@ Private key authorizes the transation:
         - adjustable difficulty 6 blocks / h
         - Sometime in 2028 reward will be 1.5625
   ],
-  image("img/blockchain.png", width: 100%),
+  image("img/week12/blockchain.png", width: 100%),
 )
 
 == Mining mechanism
