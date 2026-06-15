@@ -30,7 +30,7 @@ jobs:
           while IFS= read -r -d '' file; do
             output="out/${file%.typ}.pdf"
             mkdir -p "$(dirname "$output")"
-            typst compile "$file" "$output"
+            typst compile --root . "$file" "$output"
           done < <(find . -type f -name "*.typ" \
             -not -path "./.git/*" \
             -not -path "./.github/*" \
