@@ -17,9 +17,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
-      - uses: typst-community/setup-typst@v4
+      - uses: typst-community/setup-typst@v5
 
       - name: Compile PDFs
         shell: bash
@@ -37,7 +37,7 @@ jobs:
             -not -path "./out/*" \
             -print0)
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: typst-pdfs
           path: out/**/*.pdf
