@@ -1,3 +1,40 @@
+#let glossary_state = state("glossary", ())
+#let project_lang_state = state("project-lang", "en")
+
+#let accent_color = rgb("#b43b72")
+#let border_color = rgb("#ead0dc")
+#let soft_fill = rgb("#fff7fb")
+
+#let language_labels(lang) = if lang == "de" {
+  (
+    subtitle: "Zusammenfassung",
+    authors: "Autorinnen und Autoren",
+    date: "Datum",
+    page: "Seite",
+    toc: "Inhaltsverzeichnis",
+    glossary: (
+      title: "Glossar",
+      term: "Begriff",
+      location: "Fundstelle",
+      page: "Seite",
+    ),
+  )
+} else {
+  (
+    subtitle: "Summary",
+    authors: "Authors",
+    date: "Date",
+    page: "Page",
+    toc: "Table of Contents",
+    glossary: (
+      title: "Glossary",
+      term: "Term",
+      location: "Location",
+      page: "page",
+    ),
+  )
+}
+
 #let project(
   title: "",
   subtitle: none,
@@ -13,38 +50,30 @@
     authors
   }
 
-  let labels = if lang == "de" {
-    (
-      subtitle: "Zusammenfassung",
-      authors: "Autorinnen und Autoren",
-      date: "Datum",
-      page: "Seite",
-      toc: "Inhaltsverzeichnis",
-    )
-  } else {
-    (
-      subtitle: "Summary",
-      authors: "Authors",
-      date: "Date",
-      page: "Page",
-      toc: "Table of Contents",
-    )
-  }
+  let labels = language_labels(lang)
   let shown-subtitle = if subtitle == none {
     labels.subtitle
   } else {
     subtitle
   }
-  let authors-label = labels.authors
-  let date-label = labels.date
-  let page-label = labels.page
-  let toc-label = labels.toc
 
   // Base text settings
   set text(font: "Calibri", size: 11pt, lang: lang, region: region)
+  project_lang_state.update(lang)
 
   // Numbered headings
   set heading(numbering: "1.")
+
+  // Table styling
+  set table(
+    inset: 7pt,
+    stroke: border_color,
+    fill: (_, y) => if y == 0 { accent_color },
+  )
+  show table.cell.where(y: 0): it => {
+    set text(fill: white, weight: 700)
+    it
+  }
 
   // Global page settings
   set page(
@@ -70,7 +99,7 @@
         #grid(
           columns: (1fr, 1fr),
           align(left, date),
-          align(right, [#page-label #counter(page).display()])
+          align(right, [#labels.page #counter(page).display()])
         )
       ]
     }
@@ -91,7 +120,7 @@
 
       #v(3cm)
 
-      #text(size: 12pt, weight: 600, authors-label)
+      #text(size: 12pt, weight: 600, labels.authors)
       #v(0.5em)
       #for author in author-list [
         #author \
@@ -99,7 +128,7 @@
 
       #v(2cm)
 
-      #text(size: 12pt, weight: 600, date-label)
+      #text(size: 12pt, weight: 600, labels.date)
       #v(0.5em)
       #date
     ]
@@ -110,7 +139,7 @@
   // ----------------
   // Table of contents
   // ----------------
-  heading(level: 1, numbering: none, outlined: false)[#toc-label]
+  heading(level: 1, numbering: none, outlined: false)[#labels.toc]
   outline(title: none)
 
   pagebreak()
@@ -120,4 +149,40 @@
   // ----------------
   set par(justify: true)
   body
+}
+
+// Optional glossary
+#let glossary-term(term) = {
+  context {
+    let location = here()
+    glossary_state.update(entries => entries + ((term: term, location: location),))
+    text(weight: 700, term)
+  }
+}
+
+#let glossary(lang: none, title: none) = {
+  context {
+    let glossary_lang = if lang == none { project_lang_state.final() } else { lang }
+    let all_labels = language_labels(glossary_lang)
+    let labels = all_labels.glossary
+    let shown-title = if title == none { labels.title } else { title }
+    let entries = glossary_state.final()
+
+    heading(level: 1, numbering: none)[#shown-title]
+    table(
+      columns: (1.2fr, 2fr),
+      align: (left, left),
+      inset: 7pt,
+      stroke: border_color,
+      fill: (_, y) => if y == 0 { accent_color } else { soft_fill },
+      table.header(
+        [#text(fill: white, weight: 700, labels.term)],
+        [#text(fill: white, weight: 700, labels.location)],
+      ),
+      ..entries.map(entry => (
+        [#text(weight: 700, entry.term)],
+        [#link(entry.location)[#labels.page #counter(page).at(entry.location).first()]],
+      )).flatten(),
+    )
+  }
 }
