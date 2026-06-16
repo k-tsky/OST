@@ -1,0 +1,59 @@
+%%{init: {"flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 55, "rankSpacing": 55}, "theme": "base", "themeVariables": {"fontFamily": "Calibri, Arial", "fontSize": "13px", "primaryColor": "#ffffff", "primaryTextColor": "#222222", "primaryBorderColor": "#555555", "lineColor": "#555555", "edgeLabelBackground": "#ffffff"}}}%%
+
+flowchart TB
+  kauf["Kauf einer Sache"]
+  pruefen["Kaufsache unverzüglich prüfen<br/>Art. 201 Abs. 1 OR"]
+
+  genehmigung["Genehmigung der Sache<br/>Art. 201 Abs. 2 OR"]
+  offen{"Offensichtlicher<br/>Sachmangel?"}
+  verdeckt{"Später auftauchender<br/>verdeckter Sachmangel?"}
+  kein_mangel["☺"]
+
+  frist{"Entdeckung innerhalb von<br/>zwei Jahren ab Ablieferung?"}
+  verjaehrt["Rechte verjährt<br/>Art. 210 Abs. 1 OR"]
+
+  ruege["Mangel unverzüglich rügen<br/>Art. 201 Abs. 1 und 3 OR"]
+  spacer_wahl(( ))
+  wahl["Wahlrechte ausüben"]
+
+  wandelung["Wandelung wählen<br/>Art. 205 Abs. 1 OR"]
+  minderung["Minderung wählen<br/>Art. 205 f. OR"]
+  ersatz["Ersatzlieferung² wählen<br/>Art. 206 Abs. 1 OR"]
+
+  se1["Schadenersatz fordern<br/>Art. 208 Abs. 2 und 3 OR"]
+  se2["Schadenersatz fordern<br/>Art. 97 OR"]
+  se3["Schadenersatz fordern<br/>Art. 97 OR"]
+
+  kauf --> pruefen
+  pruefen --> offen
+  pruefen -- "Falls versäumt" --> genehmigung
+
+  offen -- "Ja" --> ruege
+  offen -- "Nein" --> verdeckt
+
+  verdeckt -- "Nein" --> kein_mangel
+  verdeckt -- "Ja" --> frist
+
+  frist -- "Ja" --> ruege
+  frist -- "Nein" --> verjaehrt
+
+  ruege -- "Falls versäumt" --> genehmigung
+  ruege --> spacer_wahl --> wahl
+
+  wahl --> wandelung
+  wahl --> minderung
+  wahl --> ersatz
+
+  wandelung -- "+" --> se1
+  minderung -- "+" --> se2
+  ersatz -- "+" --> se3
+
+  classDef box fill:#ffffff,stroke:#555555,stroke-width:1px,color:#222222;
+  classDef decision fill:#ffffff,stroke:#555555,stroke-width:1px,color:#222222;
+  classDef endnode fill:#ffffff,stroke:#ffffff,color:#222222,font-size:22px;
+  classDef invisible fill:#ffffff00,stroke:#ffffff00,color:#ffffff00;
+
+  class kauf,pruefen,genehmigung,ruege,verjaehrt,wahl,wandelung,minderung,ersatz,se1,se2,se3 box;
+  class offen,verdeckt,frist decision;
+  class kein_mangel endnode;
+  class spacer_wahl invisible;
