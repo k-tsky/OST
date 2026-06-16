@@ -1,8 +1,10 @@
 #let project(
   title: "",
-  subtitle: "Summary",
+  subtitle: none,
   authors: (),
   date: datetime.today().display("[day] [month repr:long] [year]"),
+  lang: "en",
+  region: "US",
   body,
 ) = {
   let author-list = if type(authors) == str {
@@ -11,8 +13,35 @@
     authors
   }
 
+  let labels = if lang == "de" {
+    (
+      subtitle: "Zusammenfassung",
+      authors: "Autorinnen und Autoren",
+      date: "Datum",
+      page: "Seite",
+      toc: "Inhaltsverzeichnis",
+    )
+  } else {
+    (
+      subtitle: "Summary",
+      authors: "Authors",
+      date: "Date",
+      page: "Page",
+      toc: "Table of Contents",
+    )
+  }
+  let shown-subtitle = if subtitle == none {
+    labels.subtitle
+  } else {
+    subtitle
+  }
+  let authors-label = labels.authors
+  let date-label = labels.date
+  let page-label = labels.page
+  let toc-label = labels.toc
+
   // Base text settings
-  set text(font: "Calibri", size: 11pt)
+  set text(font: "Calibri", size: 11pt, lang: lang, region: region)
 
   // Numbered headings
   set heading(numbering: "1.")
@@ -41,7 +70,7 @@
         #grid(
           columns: (1fr, 1fr),
           align(left, date),
-          align(right, [Page #counter(page).display()])
+          align(right, [#page-label #counter(page).display()])
         )
       ]
     }
@@ -55,14 +84,14 @@
       #v(6cm)
       #text(size: 22pt, weight: 700, title)
 
-      #if subtitle != "" [
+      #if shown-subtitle != "" [
         #v(1em)
-        #text(size: 14pt, fill: gray, subtitle)
+        #text(size: 14pt, fill: gray, shown-subtitle)
       ]
 
       #v(3cm)
 
-      #text(size: 12pt, weight: 600, "Authors")
+      #text(size: 12pt, weight: 600, authors-label)
       #v(0.5em)
       #for author in author-list [
         #author \
@@ -70,7 +99,7 @@
 
       #v(2cm)
 
-      #text(size: 12pt, weight: 600, "Date")
+      #text(size: 12pt, weight: 600, date-label)
       #v(0.5em)
       #date
     ]
@@ -81,7 +110,7 @@
   // ----------------
   // Table of contents
   // ----------------
-  heading(level: 1, numbering: none, outlined: false)[Table of Contents]
+  heading(level: 1, numbering: none, outlined: false)[#toc-label]
   outline(title: none)
 
   pagebreak()
