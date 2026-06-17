@@ -23,7 +23,22 @@ Use this on top to get started with a new typst file:
 #show: project.with(
   title: "title",
   authors: ("Katharina Tschirky"),
+  lang: "de", //optional, default is en
+  region: "CH", //optional, default is us
 )
+```
+
+The template adds title pages, headers/footers, table styling, localized labels,
+and an automatic glossary. Mark terms in the text with:
+
+```typst
+#glossary-term("Begriff")
+```
+
+Then print the glossary at the end:
+
+```typst
+#glossary()
 ```
 
 This line is an example for adding a centered image:
@@ -64,3 +79,4 @@ The following grid can be used to place contents next to each other:
 - [CySec](https://quizlet.com/user/katharina_tschirky/folders/cysec24?funnelUUID=78950d19-b67d-4edc-a59e-42190066f323)
 - [English WoS](https://quizlet.com/user/katharina_tschirky/folders/english-the-world-of-science?funnelUUID=d8972387-b748-40e7-b3ef-06a1b7a43259)
 - [SEP2](https://quizlet.com/ch/1144325670/sep2-theoriefragen-flash-cards/)
+- [Dsys](https://quizlet.com/ch/1189725259/dsys-flash-cards/?i=3cump9&x=1jqt)
