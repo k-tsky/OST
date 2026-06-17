@@ -7,7 +7,12 @@
   region: "CH",
 )
 
+#include "Gesetzestexte.typ"
+#pagebreak()
 #include "Obligationenrecht.typ"
 #pagebreak()
+#include "ZGB.typ"
+#pagebreak()
 
+#include "Fallbeispiele.typ"
 #glossary()
