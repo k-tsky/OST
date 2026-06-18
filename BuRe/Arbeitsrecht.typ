@@ -1,4 +1,5 @@
-﻿= Arbeitsrecht
+﻿#import "../template.typ": *
+= Arbeitsrecht
 == Nominatverträge
 Gesetzlich geregelter Vertrag auf Arbeitsleistung
 === Arbeitsvertrag
@@ -38,7 +39,7 @@ Auftrag = Sorgfälltiges Tätigwerden
 
 == Entstehung eines Arbeitsverhältnisses
 === Einzelarbeitsvertrag (EAV)
-Der EAV nach Art. 319 ff. OR ist grundsätzlich formfrei und kann schriftlich, mündlich oder konkludent entstehen (Art. 320 OR). Schriftform braucht es für Sonderabreden wie Verlängerung der Probezeit, Lohnverzicht bei Überstunden oder Konkurrenzverbot. Zu beachten sind relativ zwingende (Art. 362 OR) und absolut zwingende Bestimmungen (Art. 361 OR) zum Schutz des Arbeitnehmers.
+Der EAV nach Art. 319 ff. OR ist grundsätzlich formfrei und kann schriftlich, mündlich oder durch #glossary-term("Konkludentes Verhalten"): schlüssiges Verhalten ohne ausdrückliche Erklärung entstehen (Art. 320 OR). Schriftform braucht es für Sonderabreden wie Verlängerung der Probezeit, Lohnverzicht bei Überstunden oder Konkurrenzverbot. Zu beachten sind relativ zwingende (Art. 362 OR) und absolut zwingende Bestimmungen (Art. 361 OR) zum Schutz des Arbeitnehmers.
 
 Voraussetzungen:
 - Übereinstimmende gegenseitige Willenserklärung (Art. 1 OR)
@@ -116,7 +117,7 @@ Voraussetzungen:
 - Schaden: vom Arbeitgeber zu beweisen
 - Vertragsverletzung, z.B. Arbeits-, Sorgfalts- oder Treuepflichtverletzung: vom Arbeitgeber zu beweisen
 - Adäquater Kausalzusammenhang zwischen Schaden und Vertragsverletzung: vom Arbeitgeber zu beweisen
-- Verschulden des Arbeitnehmers: wird vermutet, Arbeitnehmer kann sich exkulpieren
+- Verschulden des Arbeitnehmers: wird vermutet, #glossary-term("Exkulpation"): Entlastungsbeweis, dass ihn kein Verschulden trifft
 
 Kriterien für das Haftungsmass:
 - Konkretes Arbeitsverhältnis und Berufsrisiko
@@ -296,8 +297,7 @@ Kündigungsfrist darf nicht unter einem Monat sein, ausser es ist im GAV anders 
 - Einsprachefrist (bis zum Ablauf der Kündigungsfrist)
 - Klagefrist (180n Tage nach Beendigung des Arbeitsverhältnisses)
 
-Merke: Bei der Klagefrist handelt es sich um eine Verwirkungsfrist, d.h. der
-Richter beachtet diese von Amtes wegen.
+Merke: Bei der Klagefrist handelt es sich um eine #glossary-term("Verwirkungsfrist"): Frist, nach deren Ablauf ein Anspruch endgültig nicht mehr durchgesetzt werden kann, d.h. der Richter beachtet diese von Amtes wegen.
 
 *Rechtsfolgen:* 
 -  Selbst wenn das Gericht eine Kündigung als missbräuchlich qualifiziert, ist diese rechtswirksam

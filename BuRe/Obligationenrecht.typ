@@ -44,7 +44,9 @@ Die Kollektiv- und Kommanditgesellschaften sind keine juristischen Personen, son
   ],
 )
 
-=== Grundsatz der Vertragsfreiheit
+=== Grundsatz der Vertragsfreiheit (Art. 19 OR)
+Parteien können den Vertragsinhalt grundsätzlich frei bestimmen. Grenzen sind zwingendes Recht, öffentliche Ordnung, gute Sitten und Persönlichkeitsrechte.
+
 Verschiedene Aspekte:
 - Abschlussfreiheit
 - Partnerwahlfreiheit
@@ -140,7 +142,9 @@ Gründe:
   ],
 )
 
-=== Vertragsschluss
+=== Vertragsschluss (Art. 1 OR)
+Ein Vertrag entsteht durch übereinstimmende gegenseitige Willensäusserung. Diese kann ausdrücklich oder stillschweigend erfolgen.
+
 #glossary-term("Willensäusserung"): Angebot und Annahme.
 
 #glossary-term("Antrag"): Der Antrag ist ein einseitiges Rechtsgeschäft, der auf den Abschluss eines Vertrages gerichtet ist. 
@@ -152,6 +156,7 @@ Begrifflichkeiten:
 #glossary-term("Annahme"): Die Annahme ist ein einseitiges Rechtsgeschäft.
 Begrifflichkeiten:
 - Einverständnis in den wesentlichen Punkten ("essentialia negotii")
+- Art. 2 OR: Einigung über alle wesentlichen Punkte genügt, offene Nebenpunkte hindern die Verbindlichkeit grundsätzlich nicht
 - Empfangsbedürftigkeit
 - Stillschweigende Annahme (Art. 6 OR)
 - Widerruf (Art. 9 OR)

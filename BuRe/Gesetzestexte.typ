@@ -105,3 +105,23 @@
 - *Art. 9 ArG:* Beginn der Überzeit bei Überschreitung der gesetzlichen Höchstarbeitszeit.
 - *Art. 162 StGB:* Verletzung von Fabrikations- oder Geschäftsgeheimnissen.
 
+== Werkvertrag
+- *Art. 363 OR:* Werkvertrag; Unternehmer erstellt oder verändert ein Werk gegen Vergütung.
+- *Art. 365 OR:* Stofflieferung und Anzeigepflicht; Unternehmer muss auf untauglichen Stoff/Baugrund hinweisen.
+- *Art. 366 OR:* Verzug oder mangelhafte Ausführung vor Ablieferung; Besteller kann zurücktreten oder Ersatzvornahme androhen.
+- *Art. 367 und 370 OR:* Prüf- und Rügeobliegenheit; bei verspäteter Rüge gilt das Werk als genehmigt.
+- *Art. 368 OR:* Mängelrechte; Wandelung, Minderung, Nachbesserung und ggf. Schadenersatz.
+- *Art. 371 OR:* Verjährung der Mängelrechte; grundsätzlich 2 Jahre, bei unbeweglichen Werken bzw. Einbau in solche 5 Jahre.
+- *Art. 373 OR:* Fixpreis; vereinbarter Werklohn bleibt grundsätzlich verbindlich.
+- *Art. 374 OR:* Kein oder unklarer Preis; Werklohn nach Wert der Arbeit und Aufwand.
+- *Art. 375 OR:* Überschreitung eines ungefähren Kostenansatzes; bei unverhältnismässiger Überschreitung Rücktritts-/Herabsetzungsrechte.
+- *Art. 377 OR:* Rücktritt vor Vollendung; Besteller kann zurücktreten, muss aber Arbeit und Schaden ersetzen.
+
+== Auftrag
+- *Art. 394 OR:* Einfacher Auftrag; Tätigwerden im fremden Interesse, Erfolg nicht geschuldet.
+- *Art. 398 OR:* Sorgfalts- und Treuepflicht; getreue und sorgfältige Ausführung, Haftung bei Verschulden.
+- *Art. 400 OR:* Rechenschafts- und Herausgabepflicht; Beauftragter muss Auskunft geben und Erlangtes herausgeben.
+- *Art. 404 OR:* Jederzeitige Beendigung; Widerruf/Kündigung jederzeit möglich, bei Unzeit Schadenersatz.
+- *Art. 406a OR:* Ehe- oder Partnerschaftsvermittlung gegen Vergütung.
+- *Art. 412 OR:* Mäklervertrag; Nachweis oder Vermittlung einer Vertragsgelegenheit gegen Vergütung.
+- *Art. 418a OR:* Agenturvertrag; dauernde Vermittlung oder Abschluss von Geschäften ohne Arbeitsverhältnis.

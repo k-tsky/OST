@@ -13,7 +13,7 @@ Art. 2 ZGB regelt, wie Rechte ausgeübt und Pflichten erfüllt werden müssen.
 *Treu und Glauben* ist ein unbestimmter Rechtsbegriff. Gemeint ist ein anständiges, redliches, aufrichtiges, zuverlässiges und rücksichtsvolles Verhalten im Rechtsverkehr.
 
 Wichtige Funktionen:
-- #glossary-term("Vertrauensschutz:") Wer berechtigtes Vertrauen in das Verhalten des Gegenübers gesetzt hat, soll nicht enttäuscht werden.
+- #glossary-term("Vertrauensschutz"): Wer berechtigtes Vertrauen in das Verhalten des Gegenübers gesetzt hat, soll nicht enttäuscht werden.
 - *Verbot widersprüchlichen Verhaltens:* Wer sich zuerst auf eine bestimmte Weise verhält, darf später nicht treuwidrig das Gegenteil geltend machen.
 - #glossary-term("Rechtsmissbrauchsverbot:") Der offenbare Missbrauch eines Rechts wird nicht geschützt.
 
