@@ -132,3 +132,62 @@ Art. 2 ZGB = Verbietet treuwidriges Verhalten.
   [Art. 8 ZGB],
   [Sophie beweist Vertrag, Nichtlieferung und Schaden; der Schreiner fehlendes Verschulden.],
 )
+
+== Arbeitsrecht
+
+#table(
+  columns: (0.35fr, 3fr, 3fr),
+  inset: 6pt,
+  align: (center + horizon, left, left),
+  stroke: 0.5pt,
+
+  [*Nr.*], [*Fall*], [*Kurzlösung*],
+
+  [*1*],
+  [Wie kann ein unbefristeter Arbeitsvertrag beendet werden?],
+  [Ein unbefristeter Arbeitsvertrag kann von beiden Parteien ordentlich gekündigt werden. Auf Verlangen ist die Kündigung schriftlich zu begründen. Grundlage: *Art. 335 OR*.],
+
+  [*2*],
+  [Ein leitender Angestellter der Protec AG muss wegen Ausfall eines Mitarbeiters mehr arbeiten. Kann er ohne Regelung im Arbeitsvertrag Überstundenentschädigung verlangen?],
+  [Leitende Angestellte sind vom ArG weitgehend ausgenommen. Bei echten höheren leitenden Angestellten ist Mehrarbeit oft durch Lohn und Stellung abgegolten. Ein Anspruch besteht daher nicht automatisch. Grundlage: *Art. 3 ArG*, *Art. 321c OR*.],
+
+  [*3*],
+  [Welche Arbeitnehmer- und Arbeitgeberpflichten ergeben sich aus dem OR?],
+  [Arbeitnehmer: Arbeitspflicht, Treuepflicht, Sorgfaltspflicht, Weisungsbefolgung, Geheimhaltung, Überstunden. Arbeitgeber: Lohnzahlung, Fürsorgepflicht, Ferien, Arbeitszeugnis, Auslagenersatz. Grundlage: *Art. 321 ff. OR*, *Art. 322 ff. OR*.],
+
+  [*4*],
+  [Peter Meier arbeitet seit 25 Jahren bei der X. AG. Nach einem zweimonatigen Klinikaufenthalt wegen Burnout will der Arbeitgeber seinen Ferienanspruch um 1/6 kürzen. Ist das zulässig?],
+  [Die Kürzung um *1/6* ist nicht zulässig. Bei Krankheit darf der Ferienanspruch erst nach einem Monat Schonfrist gekürzt werden. Bei zwei Monaten Krankheit höchstens um *1/12*. Grundlage: *Art. 329b OR*.],
+
+  [*4 Zusatz*],
+  [Peter droht, sich an den Kassensturz zu wenden. Der Arbeitgeber weist ihn auf die zivil- und strafrechtliche Geheimnispflicht hin. Was bedeutet diese im Arbeitsrecht?],
+  [Die Geheimnispflicht betrifft Fabrikations- und Geschäftsgeheimnisse, z.B. Kundenlisten, Kalkulationen, Rezepte oder Strategien. Nicht jede Kritik am Arbeitgeber ist eine Geheimnisverletzung. Grundlage: *Art. 321a Abs. 4 OR*.],
+
+  [*5*],
+  [Was hat eine gerechtfertigte fristlose Kündigung für Konsequenzen?],
+  [Bei gerechtfertigter fristloser Kündigung endet das Arbeitsverhältnis sofort. Die kündigende Partei muss keine Kündigungsfrist einhalten und kann bei Verschulden Schadenersatz verlangen. Grundlage: *Art. 337 ff. OR*.],
+
+  [*6*],
+  [Maria Meister und der CEO der Z. AG möchten künftig bei Krankheit nur noch das gesetzliche Minimum statt vier Monate Lohnfortzahlung bezahlen. Wie können die Arbeitsverträge geändert werden?],
+  [Arbeitsverträge können nicht einseitig geändert werden. Möglich sind ein Änderungsvertrag oder eine Änderungskündigung mit Einhaltung der Kündigungsfrist. Das gesetzliche Minimum der Lohnfortzahlung muss eingehalten werden. Grundlage: *Art. 324a OR*.],
+
+  [*7*],
+  [Klara Kleiner wird wegen fehlerhafter Buchungen und Überweisungen auf ein Privatkonto fristlos gekündigt. Später zeigt sich, dass ihre Kollegin dafür verantwortlich war. Wie kann Klara vorgehen?],
+  [Da kein wichtiger Grund vorlag, ist die fristlose Kündigung ungerechtfertigt. Klara kann Lohn bis zum Ende der ordentlichen Kündigungsfrist, Schadenersatz und eine Entschädigung bis zu sechs Monatslöhnen verlangen. Grundlage: *Art. 337c OR*.],
+
+  [*8a*],
+  [Was sind wichtige Gründe für eine fristlose Kündigung?],
+  [Wichtige Gründe sind schwere Pflichtverletzungen, z.B. Diebstahl, Betrug, Gewalt, Drohungen, Arbeitsverweigerung, Geheimnisverrat oder Konkurrenzierung. Grundlage: *Art. 337 OR*.],
+
+  [*8b*],
+  [Was sind Beispiele einer missbräuchlichen Kündigung?],
+  [Missbräuchlich sind z.B. Rachekündigung, Kündigung wegen persönlicher Eigenschaften, wegen Ausübung von Rechten oder zur Vereitelung von Ansprüchen. Die Kündigung bleibt gültig, kann aber Entschädigung auslösen. Grundlage: *Art. 336 OR*.],
+
+  [*9*],
+  [Mitarbeiter B kann Arbeitszeit und Ferien frei einteilen. In der Lohnabrechnung steht, dass mit der Lohnzahlung alle Ferienansprüche abgegolten sind. Ist das zulässig?],
+  [Ferien müssen grundsätzlich bezogen werden und dürfen nicht einfach mit dem Lohn abgegolten werden. Ausnahme bei unregelmässigem Pensum, wenn der Ferienlohn klar separat ausgewiesen wird. Üblich: *8.33% bei 4 Wochen*, *10.64% bei 5 Wochen*.],
+
+  [*10*],
+  [Fritz Müller kündigt auf Ende Januar, unterschreibt einen neuen unbefristeten Arbeitsvertrag ab 1. Juni und wird im Mai für zwei Monate arbeitsunfähig. Muss der neue Arbeitgeber Lohn zahlen?],
+  [Die Probezeit ist nicht entscheidend. Bei einem unbefristeten Vertrag besteht bei unverschuldeter Arbeitsunfähigkeit grundsätzlich Lohnfortzahlung ab Stellenantritt. Im ersten Dienstjahr mindestens drei Wochen. Grundlage: *Art. 324a OR*.],
+)
