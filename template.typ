@@ -17,6 +17,7 @@
 #let heading_color = text_color
 #let quiet_line_color = violet_haze
 #let header_footer_color = text_color.transparentize(35%)
+#let header_footer_line_color = text_color.transparentize(55%)
 
 #let language_labels(lang) = if lang == "de" {
   (
@@ -106,13 +107,13 @@
           align(right, author-list.join(", "))
         )
         #v(-0.5em)
-        #line(length: 100%, stroke: 0.45pt + header_footer_color)
+        #line(length: 100%, stroke: 0.45pt + header_footer_line_color)
       ]
     },
     footer: context {
       if counter(page).get().first() > 1 [
         #set text(8pt, header_footer_color)
-        #line(length: 100%, stroke: 0.45pt + header_footer_color)
+        #line(length: 100%, stroke: 0.45pt + header_footer_line_color)
         #v(-0.5em)
         #grid(
           columns: (1fr, 1fr),
