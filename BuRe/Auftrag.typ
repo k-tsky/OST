@@ -14,9 +14,11 @@
 - Vorraussetzung eines Auftrages: Tätigwerden in fremden Interesse
 - Der Auftrag kann sowohl *#glossary-term("Rechtshandlung"):* Handlung mit rechtlicher Wirkung, z.B. Vertragsschluss, als auch *#glossary-term("Tathandlung"):* tatsächliche Handlung ohne unmittelbaren Rechtsakt, z.B. Beratung oder Behandlung, betreffen.
 - Er dient als #glossary-term("Auffangvertrag"): Vertragstyp für Dienstleistungen, die keinem Spezialvertrag zugeordnet sind.
+#example[
 - Beispiele: medizinische Behandlung, anwaltliche Beratung, Steuerberatung, Finanzberatung oder Unternehmensberatung.
+]
 
-== #glossary-term("Sorgfaltspflicht") und #glossary-term("Treuepflicht") (Art. 398 OR)
+== Sorgfaltspflicht und Treuepflicht (Art. 398 OR)
 - Beauftragter haftet für getreue und sorgfältige Ausführung.
   - Massstab: konkrete Umstände und fachtypisches Durchschnittsverhalten.
   - Verschulden bei vorsätzlicher oder fahrlässiger Sorgfaltspflichtverletzung.
@@ -24,10 +26,10 @@
   - Beraten, informieren (auch über #glossary-term("Interessenkollision"): Konflikt zwischen eigenen Interessen und Interessen des Auftraggebers) und Geheimhaltung beachten.
   - Beauftragter muss die nötigen Fähigkeiten und persönlichen Eigenschaften besitzen.
 
-== #glossary-term("Rechenschaftspflicht") und #glossary-term("Herausgabepflicht") (Art. 400 OR)
+== Rechenschaftspflicht und Herausgabepflicht (Art. 400 OR)
 - Beauftragter muss jederzeit auf Verlangen Rechenschaft ablegen.
 - Alles, was er aus der Geschäftsführung erhalten hat, ist dem Auftraggeber herauszugeben.
-#align(center, image("img/Werkvertrag/400-OR.png", width: 100%))
+#align(center, image("img/Werkvertrag/400-OR.png", width: 90%))
 
 == Beendigung des Auftrags (Art. 404 OR)
 - Auftrag kann jederzeit von beiden Parteien widerrufen oder gekündigt werden.

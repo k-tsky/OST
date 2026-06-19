@@ -5,9 +5,11 @@
   - Bspw.: Tuning, Herstellung eines Eherings, Haarschnitt, Hausbau, Anfertigen eines Möbelstücks, Bauplan des Ingenieurs, Anzug nach Mass, Autoreparatur, Aufbau einer umfassenden und «massgeschneiderten» IT- Landschaft
 
 == Höhe der Vergütung
+#definition[
 Fixpreis nach Art. 373 Abs. 1 OR:
 
 Bei einem *fest vereinbarten* #glossary-term("Werklohn") bleibt der Preis grundsätzlich gleich, auch wenn der Aufwand höher oder tiefer ist. Nur bei *ausserordentlichen, unvorhersehbaren* Umständen kann das Gericht den Preis erhöhen oder den Vertrag auflösen, z.B. bei Naturereignissen, behördlichen Massnahmen oder Pflichtverletzungen des Bestellers. Grundlage: Art. 373 Abs. 2 OR.
+]
 
 === Keine oder nur ungefähre Preisvereinbarung (Art. 374 OR)
 
@@ -46,12 +48,14 @@ Vergütung nach SIA-Norm:
     - Im Übrigen gelten die kaufrechtlichen Verjährungsregeln sinngemäss.
 
 === Seit Januar 2026
+#warning[
 Betrifft: Art. 368 OR, Art. 367 OR, Art. 219a OR, Art. 371 OR
 - Stärkere Stellung von Bauherren und Immobilienkäufern bei Baumängeln.
 - Rügefrist für offene und versteckte Mängel: 60 Tage ab Ablieferung bzw. Entdeckung.
   - Vertragliche Verkürzung nicht zulässig.
 - Nachbesserungsrecht bei Baumängeln kann vertraglich nicht mehr ausgeschlossen werden.
   - Gilt für Bauwerkverträge sowie für Grundstücke mit Neubauten, die noch erstellt werden oder höchstens zwei Jahre alt sind.
+]
 
 #align(center, image("img/Werkvertrag/Artikel.png", width: 100%))
 

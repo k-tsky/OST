@@ -4,8 +4,7 @@
 === Verschuldenshaftung (Art. 41 OR)
 - Wer einem andern widerrechtlich Schaden zufügt, sei es mit Absicht, sei es aus Fahrlässigkeit, wird ihm zum
 Ersatze verpflichtet.
-- Ebenso ist zum Ersatze verpflichtet, wer einem andern in einer gegen die guten Sitten verstossenden Weise
-absichtlich Schaden zufügt. 
+- Ebenso ist zum Ersatze verpflichtet, wer einem andern in einer gegen die guten Sitten verstossenden Weise absichtlich Schaden zufügt. 
 
 Voraussetzungen:
 - Schaden (unfreiwillige Vermögenseinbusse)
@@ -59,8 +58,10 @@ Hersteller haftet, wenn:
 + Es verursachte einen Schaden im Sinne von Art. 1 PrHG und der Schaden ist grösser als der Selbstbehalt von CHF 900.00 (Art. 6 Abs. 1 PrHG)
 + Zwischen dem fehlerhaften Produkt und dem Schaden besteht überdies ein adäquater Kausalzusammenhang nach Art. 1 PrHG
 
+#tip[
 Merke: Vereinbarungen, welche die Haftpflicht nach diesem Gesetz gegenüber dem
 Geschädigten beschränken oder wegbedingen, sind nichtig (Art. 8 PrHG). Verjährungsfrist beträgt drei Jahre (Art. 9 PrHG) und die Verwirkungsfrist zehn Jahre (Art. 10 PrHG) 
+]
 
 === Ausnahmen von der Haftung
 Hersteller kann sich aus folgenden Gründen exkulpieren:

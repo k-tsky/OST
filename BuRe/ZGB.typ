@@ -12,18 +12,22 @@ Art. 2 ZGB regelt, wie Rechte ausgeübt und Pflichten erfüllt werden müssen.
 
 *Treu und Glauben* ist ein unbestimmter Rechtsbegriff. Gemeint ist ein anständiges, redliches, aufrichtiges, zuverlässiges und rücksichtsvolles Verhalten im Rechtsverkehr.
 
+#callout[
 Wichtige Funktionen:
 - #glossary-term("Vertrauensschutz"): Wer berechtigtes Vertrauen in das Verhalten des Gegenübers gesetzt hat, soll nicht enttäuscht werden.
 - *Verbot widersprüchlichen Verhaltens:* Wer sich zuerst auf eine bestimmte Weise verhält, darf später nicht treuwidrig das Gegenteil geltend machen.
-- #glossary-term("Rechtsmissbrauchsverbot:") Der offenbare Missbrauch eines Rechts wird nicht geschützt.
+- #glossary-term("Rechtsmissbrauchsverbot"): Der offenbare Missbrauch eines Rechts wird nicht geschützt.
+]
 
 Rechtsmissbrauch liegt nur bei krass stossendem Verhalten vor, z. B. bei Schikane, Schadenfreude oder Rache. Blosses formelles Bestehen auf einem Recht genügt nicht immer.
 
+#example[
 Beispiele:
 - Ein Eigentümer lehnt zuerst alle vom Makler vermittelten Interessenten ab, schliesst später aber doch mit einem dieser Interessenten ab.
 - Ein Aktionär stimmt einem Beschluss an der Generalversammlung zu und ficht denselben Beschluss später an.
 - Ein Vermieter besteht auf einer Endreinigung, obwohl er weiss, dass das ganze Wohnhaus abgerissen wird.
 - Ein Enterbter wartet trotz Hinweis auf seinen Pflichtteil zu lange und macht später rechtsmissbräuchlich Ansprüche geltend.
+]
 
 == Guter Glaube (Art. 3 ZGB)
 Der gute Glaube wird vermutet, wenn das Gesetz eine Rechtswirkung daran knüpft. Eine Person muss also ihren guten Glauben grundsätzlich nicht beweisen.
@@ -65,4 +69,3 @@ Wichtige Ausnahmen und Erleichterungen:
 - #glossary-term("Beweisnot"): Eine Partei müsste etwas beweisen, kann dies aber faktisch oder rechtlich kaum. Gericht kann in solchen Fällen die Anforderung an den Beweis erleichtern. (z.b Glaubhaftmachen genügt)
   - Patient kann nicht beweisen, dass Arzt währen OP einen Kunstfehler gemacht hat, da er geistig nicht anwesend war
 - #glossary-term("Beweiserleichterung"): Das Gericht senkt die Anforderungen an den Beweis; statt Vollbeweis genügt z. B. Glaubhaftmachen. Auch Beweislastumkehr kann hier geltend gemacht werden.
-

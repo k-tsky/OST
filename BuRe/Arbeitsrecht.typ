@@ -297,7 +297,9 @@ Kündigungsfrist darf nicht unter einem Monat sein, ausser es ist im GAV anders 
 - Einsprachefrist (bis zum Ablauf der Kündigungsfrist)
 - Klagefrist (180n Tage nach Beendigung des Arbeitsverhältnisses)
 
+#tip[
 Merke: Bei der Klagefrist handelt es sich um eine #glossary-term("Verwirkungsfrist"): Frist, nach deren Ablauf ein Anspruch endgültig nicht mehr durchgesetzt werden kann, d.h. der Richter beachtet diese von Amtes wegen.
+]
 
 *Rechtsfolgen:* 
 -  Selbst wenn das Gericht eine Kündigung als missbräuchlich qualifiziert, ist diese rechtswirksam
@@ -330,7 +332,9 @@ Kündigung während der Sperrzeit ist nichtig.
 - Schwangerschaft: Ganze Schwangerschaft + 16 Wochen danach
 - Hilfsaktionen im Ausland
 
+#tip[
 Merke: Die Anwendung der Sperrfristen hat mit der Lohnfortzahlungspflicht des Arbeitgebers bei Arbeitsverhinderung nichts zu tun.
+]
 
 #align(center, image("img/Arbeitsrecht/Kündigungsschutz.png", width: 100%))
 
@@ -354,7 +358,9 @@ Merke: Die Anwendung der Sperrfristen hat mit der Lohnfortzahlungspflicht des Ar
   - Grössere Verspätungen
   - Verstoss gegen Weisungen (beharrliche oder wiederholte Nichtbeachten von berechtigten Weisungen)
 
+#tip[
 Merke: Die fristlose Auflösung ist ein Notventil und wird daher in der Gerichtspraxis nur dann geschützt, wenn der Anlass zur Kündigung ausreichend gravierend ist. 
+]
 
 *Mögliche Gründe (Arbeitnehmer):*
 - Beschimpfungen und Tätlichkeiten durch den Arbeitgeber
@@ -367,7 +373,9 @@ Merke: Die fristlose Auflösung ist ein Notventil und wird daher in der Gerichts
 - schwerwiegende grundlose Verdächtigungen oder üble Nachreden durch den Arbeitgeber
 - Der einzige vom Gesetz konkret genannte Grund ist derjenige der Insolvenz (Zahlungsunfähigkeit) des Arbeitgebers (Art. 337a OR). Vereinzelt verspätet erfolgte Lohnauszahlungen stellen hingegen keinen wichtigen Grund für eine fristlose Kündigung dar.
 
+#tip[
 Merke: Der Grund muss auch hier gravierend sein. Bei geringeren Problemen hat auch der Arbeitnehmer zuerst eine Verwarnung auszusprechen.
+]
 
 Folgen:
 - Schadensersatz muss geleistet werden

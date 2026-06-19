@@ -191,3 +191,110 @@ Art. 2 ZGB = Verbietet treuwidriges Verhalten.
   [Fritz Müller kündigt auf Ende Januar, unterschreibt einen neuen unbefristeten Arbeitsvertrag ab 1. Juni und wird im Mai für zwei Monate arbeitsunfähig. Muss der neue Arbeitgeber Lohn zahlen?],
   [Die Probezeit ist nicht entscheidend. Bei einem unbefristeten Vertrag besteht bei unverschuldeter Arbeitsunfähigkeit grundsätzlich Lohnfortzahlung ab Stellenantritt. Im ersten Dienstjahr mindestens drei Wochen. Grundlage: *Art. 324a OR*.],
 )
+
+== Diverse Fälle
+- *Gibt es bei Einzelarbeitsverträgen auch Formvorschriften zu beachten?*\
+  Der Einzelarbeitsvertrag ist grundsätzlich formfrei, auch mündlich oder stillschweigend möglich. Grundlage: Art. 320 OR. Einzelne Klauseln brauchen aber Schriftform, z.B. Konkurrenzverbot oder Wegbedingung/Abänderung von Überstundenentschädigung. Zwingende und relativ zwingende Bestimmungen nach Art. 361/362 OR sind zu beachten.
+
+- *Die Vertragspunkte eines Gesamtarbeitsvertrages dürfen einen Arbeitnehmer keinesfalls schlechter stellen als die Vorschriften im Obligationenrecht, korrekt?*\
+  Grundsätzlich dürfen zwingende und relativ zwingende OR-Bestimmungen nicht zuungunsten des Arbeitnehmers unterschritten werden. Aber bei dispositiven OR-Bestimmungen kann ein GAV abweichen. Also: Nicht immer korrekt, nur bei zwingenden Schutzvorschriften.
+
+- *Welchen Anforderungen muss ein Arbeitszeugnis grundsätzlich entsprechen? Wo sehen Sie allenfalls Zielkonflikte?*\
+  Ein Arbeitszeugnis muss grundsätzlich wahr, vollständig, klar, wohlwollend und aussagekräftig sein. Es enthält Art und Dauer des Arbeitsverhältnisses sowie Leistung und Verhalten. Auf Wunsch gibt es nur eine Arbeitsbestätigung. Grundlage: Art. 330a OR. Zielkonflikt: Wahrheitspflicht vs. Wohlwollen.
+
+- *Bei der Haftung des Arbeitnehmers gemäss Art. 321e OR kann man den Arbeitnehmer auch mehr in die Pflicht nehmen, als es das OR vorsieht, korrekt?*\
+  Die Haftung richtet sich nach Verschulden, Berufsrisiko, Ausbildung, Fachkenntnissen, Stellung und Fähigkeiten des Arbeitnehmers. Man kann den Arbeitnehmer nicht einfach stärker haften lassen, als Art. 321e OR vorsieht, wenn dies zwingende Schutzgedanken unterläuft. \
+  *Haftung kann vertraglich konkretisiert, aber nicht beliebig verschärft werden.*
+
+- *Die Überstunden kann man insgesamt wegbedingen, die Überzeit hingegen nicht, korrekt?*\
+  Überstunden müssen geleistet werden, wenn sie notwendig und zumutbar sind. Die Entschädigung für Überstunden kann schriftlich wegbedungen oder anders geregelt werden, Art. 321c OR. Überzeit nach ArG ist nur in engen gesetzlichen Grenzen erlaubt und muss grundsätzlich mit Zuschlag oder Freizeit kompensiert werden. Nicht: „Überzeit darf grundsätzlich nicht geleistet werden.“
+
+- *Wenn der Arbeitnehmer in einer Sperrfrist kündigt, ist die Kündigung nichtig, korrekt?*\
+  Art. 336c OR schützt nur vor Kündigungen durch den Arbeitgeber. Wenn der Arbeitnehmer selbst während einer Sperrfrist kündigt, ist seine Kündigung gültig. Die Sperrfrist macht nur eine Arbeitgeberkündigung nichtig bzw. unterbricht die Kündigungsfrist.
+
+- *Bei der missbräuchlichen Kündigung muss man einen gewissen Ablauf berücksichtigen, welchen?*\
+  Einsprache schriftlich bis spätestens Ende Kündigungsfrist. Danach Klage innert 180 Tagen nach Beendigung des Arbeitsverhältnisses. Grundlage: Art. 336b OR.
+
+- *Ein Werkvertrag kann formfrei geschlossen werden, korrekt?*\
+  Ja, grundsätzlich formfrei. Grundlage: Art. 363 OR. Achtung: Sonderfälle können Formvorschriften haben, z.B. Grundstückgeschäfte.
+
+- *Wie muss der Besteller vorgehen, wenn er das Werk entgegennimmt? Was muss er tun, wenn er Mängel entdeckt? Welche Möglichkeiten hat er dann?*\
+  Der Besteller muss das Werk nach Ablieferung prüfen und Mängel rechtzeitig rügen, Art. 367 OR. Sonst gilt das Werk als genehmigt, Art. 370 OR. Bei Mängeln kann er je nach Schwere Wandelung, Minderung, Nachbesserung und bei Verschulden Schadenersatz verlangen, Art. 368 OR.
+
+- *Handelt es sich bei der Reparatur eines Klaviers um einen Auftrag oder um einen Werkvertrag? Begründen Sie kurz anhand der Ihnen bekannten Abgrenzungskriterien.*\
+  Es ist ein Werkvertrag, weil ein konkreter Erfolg geschuldet ist: das reparierte Klavier. Auftrag bedeutet sorgfältiges Tätigwerden ohne Erfolgsgarantie, z.B. Anwalt oder Arzt.
+
+- *Auch nach mehrfacher Ermahnung verzögert der Unternehmer die Bauarbeiten unbegründet. Was kann der Besteller hier machen?*\
+  366 OR: Wenn der Unternehmer nicht rechtzeitig beginnt oder die Ausführung so verzögert, dass rechtzeitige Vollendung nicht absehbar ist, kann der Besteller vom Vertrag zurücktreten.
+
+- *Der Anwalt weigert sich kurz vor der Verhandlung, das Mandat niederzulegen. Er ist der Meinung, dass er bereits alle Vorbereitungshandlungen gemacht habe und so kurzfristig keinen neuen Klienten mehr finden würde. Der Klient ist da anderer Meinung. Wer hat Recht?*\
+  Beim Auftrag kann grundsätzlich jederzeit widerrufen oder gekündigt werden, Art. 404 OR. Der Klient darf also das Mandat beenden. Erfolgt dies zur Unzeit, kann er aber schadenersatzpflichtig werden. Der Anwalt kann sich nicht einfach weigern, das Mandat niederzulegen.
+
+
+== Fall: Kletterseil
+
+Roman kauft bei einem Sportfachgeschäft ein Kletterseil. Dieses soll gemäss Angaben des Herstellers (Alternativ des Verkäufers) ca. 1000 Kilogramm Gewicht tragen können. Leider reisst das Seil aber beim Klettern bereits nach einer Last von 50 Kilogramm ab. Bei der Begutachtung und der Ermittlung des Sachverhalts stellt sich heraus, dass dieses Seil:\
+a. einen Materialfehler hat;\
+b. bereits beim Kauf beschädigt worden sein muss;\
+c. Irrtümlicherweise vom Verkäufer empfohlen worden ist und gar kein Kletterseil war.
+
+=== a) Materialfehler
+
+Es liegt ein *Sachmangel* vor. Der Verkäufer haftet nach *Art. 197 ff. OR*, weil die Sache nicht die zugesicherte Eigenschaft hat und für den vorausgesetzten Gebrauch untauglich ist. Der Verkäufer haftet auch dann, wenn er den Mangel nicht kannte. Roman muss den Mangel rechtzeitig prüfen und rügen.
+
+Bei Personenschäden kommt zusätzlich *Produktehaftpflicht* in Betracht.
+
+=== b) Seil war bereits beim Kauf beschädigt
+
+Auch hier liegt ein *Sachmangel* vor. Entscheidend ist, dass der Mangel bereits bei Übergabe vorhanden war. Roman kann die kaufrechtlichen Mängelrechte geltend machen, also Wandelung, Minderung oder Ersatzleistung, sofern die Voraussetzungen erfüllt sind.
+
+Grundlage: *Art. 197 ff. OR*.
+
+=== c) Verkäufer empfiehlt irrtümlich ein falsches Seil
+
+Wenn das Seil gar kein Kletterseil war, ist es für den vorausgesetzten Gebrauch untauglich. Das ist ein erheblicher Mangel nach *Art. 197 OR*. Zusätzlich liegt eine falsche Beratung vor, wodurch eine Vertragsverletzung nach *Art. 97 OR* in Betracht kommt.
+
+== Fall: Sabotierte Haushaltsgeräte
+Roman ist Unternehmer und auf das Herstellen von individuell gefertigten Haushaltsgeräten spezialisiert. Klar das diese sehr teuer sind, aber er verspricht den Kunden eine top Qualität. Peter ist bei der Unternehmung von Roman als Entwickler angestellt und ist dort der kreative Kopf. Leider meint es Peter nicht gut mit Roman und er plant dem Unternehmen zu schaden. Aus diesem Grund sabotiert er einige Geräte, wie einen Kühlschrank, eine Waschmaschine und einen Kochherd.
+
+Davon bekommt Roman nichts mit, und er händigt diese Produkte seinen Kunden aus. Einige Tage später hört er von einem schweren Zwischenfall in der Küche eines Kunden. Dieser hat sich aufgrund eines Brandes in der Küche schwer am ganzen Körper verletzt und die Küche ist total abgebrannt. Die Rechtsabteilung von Roman empfiehlt ihm, sofort einen Anwalt zu konsultieren. Gesagt getan. Auch die Frau des verletzten Kunden hat bereits einen Anwalt.
+
+Während den aussergerichtlichen Verhandlungen kommt heraus, dass Peter für diesen Kurzschluss in der Küche verantwortlich war. Es ist zwar unklar, ob er das absichtlich gemacht hat oder nicht, aber es lässt Roman nicht mehr in Ruhe und er entlässt Peter, auf Empfehlung seines Anwalts fristlos. Nun hat sich auch Peter einen Anwalt genommen, um gegen die «ungerechtfertigte» fristlose Kündigung vorzugehen. Er stellt beträchtliche Forderungen. 
+
+Roman weiss nicht mehr, wo ihm der Kopf steht. Da er auch seinem Anwalt nicht mehr ganz traut, kommt er schliesslich zu Ihnen, um von Ihnen eine Zweitmeinung einzuholen. Ziehen Sie für die Beratung alle Register und prüfen Sie alle möglichen Ansprüche (Arbeitsvertrag, Werkvertrag, Auftrag, Produktehaftpflicht und andere ausservertraglichen Haftungsgrundlagen).
+
+=== Ansprüche des Kunden gegen Roman
+Da Roman individuell gefertigte Haushaltsgeräte herstellt, liegt eher ein *Werkvertrag* vor. Roman schuldet ein funktionierendes und sicheres Werk. Das gelieferte Gerät ist mangelhaft, weshalb der Kunde Ansprüche aus *Art. 367 ff. OR* und insbesondere *Art. 368 OR* geltend machen kann.
+
+Zusätzlich kommt vertraglicher Schadenersatz nach *Art. 97 OR* in Betracht. Da Peter als Arbeitnehmer bei Roman tätig war, haftet Roman grundsätzlich auch für seine Hilfsperson nach *Art. 101 OR*.
+
+Ausservertraglich kommen *Art. 41 OR* und die Geschäftsherrenhaftung nach *Art. 55 OR* in Betracht. Roman kann zudem nach dem *Produktehaftpflichtgesetz* haften, weil er Hersteller eines fehlerhaften Produkts ist, das zu Personen- und Sachschäden geführt hat.
+
+=== Ansprüche von Roman gegen Peter
+Peter verletzt seine arbeitsrechtliche *Sorgfalts- und Treuepflicht* nach *Art. 321a OR*. Wenn er die Geräte absichtlich oder fahrlässig manipuliert hat, haftet er Roman für den entstandenen Schaden nach *Art. 321e OR*.
+
+Bei absichtlicher Sabotage kommt zusätzlich eine Haftung aus unerlaubter Handlung nach *Art. 41 OR* in Betracht. Strafrechtlich könnten zudem Sachbeschädigung und Körperverletzung relevant sein.
+
+=== Fristlose Kündigung von Peter
+Eine fristlose Kündigung ist zulässig, wenn ein wichtiger Grund vorliegt und die Fortsetzung des Arbeitsverhältnisses unzumutbar ist. Grundlage ist *Art. 337 OR*.
+
+Sabotage oder grob pflichtwidrige Manipulation an gefährlichen Geräten ist ein schwerer Vertrauensbruch. Wenn Peter dafür verantwortlich ist, ist die fristlose Kündigung grundsätzlich gerechtfertigt.
+
+Falls die fristlose Kündigung nicht gerechtfertigt wäre, könnte Peter nach *Art. 337c OR* Lohn bis zum Ablauf der ordentlichen Kündigungsfrist, Schadenersatz und eine Entschädigung von bis zu sechs Monatslöhnen verlangen.
+
+== Fall: Roman gegen seinen Anwalt
+Roman, den Sie mittlerweile bestens kennen sollten, hat sich bei einem Anwalt beraten lassen, wie er am besten in einer arbeitsrechtlichen Streitigkeit vorgehen soll. Folgende Problematik hatte er an seinem Arbeitsplatz:
+
+Der Arbeitgeber hat ihm im ersten Dienstjahr aber nach Ablauf der Probezeit fristlos gekündigt. Das Problem ist aber, dass er zu diesem Zeitpunkt für fünf Tage krankgeschrieben war. Er ist der Meinung, dass diese Kündigung nichtig sei und er demnach noch angestellt sei. Grund der fristlosen Kündigung sei eine falsche Deklaration der Arbeitszeiten gewesen. Roman bestreitet dies aber vehement. Der Anwalt ist da gleicher Meinung und geht in diesem Sinne gegen den Arbeitgeber vor. Er fordert ihn auf, Roman wieder anzustellen, da die Kündigung nichtig sei. Der Arbeitgeber ist da anderer Meinung und bricht den Kontakt ab. In der Folge muss der Anwalt den Klageweg beschreiten. Nach erfolgloser Schlichtung und Klageabweisung bei Gericht, stellt der Anwalt dem Roman eine Honorarnote von CHF 10’000.00 CHF zu. Roman ist verärgert und möchte diese nicht bezahlen.
+
+=== Fristlose Kündigung während Krankheit
+Die Krankheit macht eine fristlose Kündigung nicht automatisch nichtig. Die Sperrfristen bei Krankheit schützen grundsätzlich nur vor *ordentlicher Kündigung*, nicht vor einer *fristlosen Kündigung*.
+
+Entscheidend ist daher, ob ein wichtiger Grund nach *Art. 337 OR* vorlag. Eine falsche Arbeitszeitdeklaration kann, wenn sie schwer genug und bewiesen ist, eine fristlose Kündigung rechtfertigen. Wenn sie nicht bewiesen oder nur geringfügig ist, wäre die fristlose Kündigung ungerechtfertigt.
+
+=== Verhältnis zwischen Roman und Anwalt
+Der Vertrag mit dem Anwalt ist ein *Auftrag* nach *Art. 394 ff. OR*. Der Anwalt schuldet keinen Prozesserfolg, sondern sorgfältige Beratung und Prozessführung. Grundlage für die Sorgfaltspflicht ist *Art. 398 OR*.
+
+Roman muss das Honorar grundsätzlich bezahlen. Er kann die Rechnung aber bestreiten, wenn der Anwalt seine Sorgfaltspflichten verletzt hat. Das wäre möglich, wenn der Anwalt klar falsch beraten hat, z.B. indem er behauptete, die fristlose Kündigung sei wegen Krankheit sicher nichtig, oder wenn er Roman nicht genügend über die Prozessrisiken aufgeklärt hat.
+
+In diesem Fall kann Roman eine Honorarreduktion oder Schadenersatz wegen Schlechterfüllung des Auftrags verlangen.

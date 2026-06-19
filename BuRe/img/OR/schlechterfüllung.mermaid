@@ -1,59 +1,47 @@
-%%{init: {"flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 55, "rankSpacing": 55}, "theme": "base", "themeVariables": {"fontFamily": "Calibri, Arial", "fontSize": "13px", "primaryColor": "#ffffff", "primaryTextColor": "#222222", "primaryBorderColor": "#555555", "lineColor": "#555555", "edgeLabelBackground": "#ffffff"}}}%%
+---
+config:
+  themeVariables:
+    fontSize: 18px
+  flowchart:
+    nodeSpacing: 28
+    rankSpacing: 34
+---
+flowchart TD
+  A[Kauf einer Sache] --> B[Kaufsache unverzüglich prüfen<br/><em>Art. 201 Abs. 1 OR</em>]
 
-flowchart TB
-  kauf["Kauf einer Sache"]
-  pruefen["Kaufsache unverzüglich prüfen<br/>Art. 201 Abs. 1 OR"]
+  B --> C{Offensichtlicher<br/>Sachmangel?}
+  B -- Falls versäumt --> G[Genehmigung der Sache<br/><em>Art. 201 Abs. 2 OR</em>]
 
-  genehmigung["Genehmigung der Sache<br/>Art. 201 Abs. 2 OR"]
-  offen{"Offensichtlicher<br/>Sachmangel?"}
-  verdeckt{"Später auftauchender<br/>verdeckter Sachmangel?"}
-  kein_mangel["☺"]
+  C -- Ja --> D[Mangel unverzüglich rügen<br/><em>Art. 201 Abs. 1 und 3 OR</em>]
+  C -- Nein --> E{Später auftauchender<br/>verdeckter Sachmangel?}
 
-  frist{"Entdeckung innerhalb von<br/>zwei Jahren ab Ablieferung?"}
-  verjaehrt["Rechte verjährt<br/>Art. 210 Abs. 1 OR"]
+  E -- Nein --> OK((☺))
+  E -- Ja --> F{Entdeckung innerhalb von<br/>zwei Jahren ab Ablieferung?}
 
-  ruege["Mangel unverzüglich rügen<br/>Art. 201 Abs. 1 und 3 OR"]
-  spacer_wahl(( ))
-  wahl["Wahlrechte ausüben"]
+  F -- Ja --> D
+  F -- Nein --> H[Rechte verjähren<br/><em>Art. 210 Abs. 1 OR</em>]
 
-  wandelung["Wandelung wählen<br/>Art. 205 Abs. 1 OR"]
-  minderung["Minderung wählen<br/>Art. 205 f. OR"]
-  ersatz["Ersatzlieferung² wählen<br/>Art. 206 Abs. 1 OR"]
+  D -- Falls versäumt --> G
+  D --> I[Wahlrecht ausüben]
 
-  se1["Schadenersatz fordern<br/>Art. 208 Abs. 2 und 3 OR"]
-  se2["Schadenersatz fordern<br/>Art. 97 OR"]
-  se3["Schadenersatz fordern<br/>Art. 97 OR"]
+  I --> J[Wandelung wählen<br/><em>Art. 205 Abs. 1 OR</em>]
+  I --> L[Minderung wählen<br/><em>Art. 205 f. OR</em>]
+  I --> N[Ersatzlieferung² wählen<br/><em>Art. 206 Abs. 1 OR</em>]
 
-  kauf --> pruefen
-  pruefen --> offen
-  pruefen -- "Falls versäumt" --> genehmigung
+  J --> K[+<br/>Schadenersatz fordern<br/><em>Art. 208 Abs. 2 und 3 OR</em>]
+  L --> M[+<br/>Schadenersatz fordern<br/><em>Art. 97 OR</em>]
+  N --> O[+<br/>Schadenersatz fordern<br/><em>Art. 97 OR</em>]
 
-  offen -- "Ja" --> ruege
-  offen -- "Nein" --> verdeckt
+  G ~~~ D
+  H ~~~ N
 
-  verdeckt -- "Nein" --> kein_mangel
-  verdeckt -- "Ja" --> frist
 
-  frist -- "Ja" --> ruege
-  frist -- "Nein" --> verjaehrt
+  classDef box fill:#fff,stroke:#777,stroke-width:1px,color:#111;
+  classDef decision fill:#fff,stroke:#777,stroke-width:1px,color:#111;
+  classDef finalNode fill:#fff,stroke:#777,stroke-width:1px,color:#111;
+  classDef footnote fill:transparent,stroke:transparent,color:#111;
 
-  ruege -- "Falls versäumt" --> genehmigung
-  ruege --> spacer_wahl --> wahl
+  class A,B,D,G,H,I,J,K,L,M,N,O box;
+  class C,E,F decision;
+  class OK finalNode;
 
-  wahl --> wandelung
-  wahl --> minderung
-  wahl --> ersatz
-
-  wandelung -- "+" --> se1
-  minderung -- "+" --> se2
-  ersatz -- "+" --> se3
-
-  classDef box fill:#ffffff,stroke:#555555,stroke-width:1px,color:#222222;
-  classDef decision fill:#ffffff,stroke:#555555,stroke-width:1px,color:#222222;
-  classDef endnode fill:#ffffff,stroke:#ffffff,color:#222222,font-size:22px;
-  classDef invisible fill:#ffffff00,stroke:#ffffff00,color:#ffffff00;
-
-  class kauf,pruefen,genehmigung,ruege,verjaehrt,wahl,wandelung,minderung,ersatz,se1,se2,se3 box;
-  class offen,verdeckt,frist decision;
-  class kein_mangel endnode;
-  class spacer_wahl invisible;

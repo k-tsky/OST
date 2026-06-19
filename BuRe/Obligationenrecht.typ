@@ -22,11 +22,15 @@ andere Rechtsgründe:
 - Verein (Art. 60 ff. ZGB)
 - Stiftung (Art. 80 ff. ZGB)
 
+#tip[
 *Merke: *
 Die Kollektiv- und Kommanditgesellschaften sind keine juristischen Personen, sondern Rechtsgemeinschaften. Im Rechtsverkehr treten diese Gesellschaften trotzdem unter eigener Firma auf. Die Kollektiv- und Kommanditgesellschaften sind unter ihrer Firma parteifähig und damit prozess- und betreibungsfähig (vgl. Art. 562 OR).
+]
 
 == Culpa in contrahendo
+#definition[
 #glossary-term("Culpa in contrahendo"): Schuldhafte Verletzung vorvertraglicher Pflichten, wobei eine allfällige Schadenersatzpflicht unabhängig davon eintreten kann, ob der Vertrag in der Folge gültig zustande kommt oder nicht. Grundlage ist Art. 2 Abs. 1 ZGB.
+]
 
 == Verträge
 // TODO: Markieren im OR
@@ -180,9 +184,7 @@ Beispiele:
 - Wer noch nicht verfallene Mietzinse stillschweigend entgegennimmt, stimmt implizit einer Verlängerung der Miete zu.
 - Beauftragung eines Anwalts (Art. 395 OR)
 
-*Weiteres schlüssiges Verhalten*
-
-Beispiele:
+*Beipsiele weiteres schlüssiges Verhalten*
 - wortloses Hinlegen von Waren auf das Beförderungsband an der Kasse
 - wortloses Hinlegen des Kaufpreises am Kiosk
 - Einwurf von Münzen am Getränkeautomaten zum Kauf eines Süssgetränks
@@ -259,12 +261,13 @@ Grundsatz: spezielles Recht geht allgemeinem Recht vor.
   [],
 )
 
+#tip[
 *Merke:* Für den Schuldner besteht Erfüllungszwang. Art. 98 OR gibt dem Gläubiger die Möglichkeit, sich vom Richter zur ersatzweisen Vornahme der ausgebliebenen Leistung ermächtigen zu lassen. Der Gläubiger kann natürlich auch auf Erfüllung klagen.
+]
 
-#align(center, image("img/OR/schlechterfüllung.png", width: 100%))
+#align(center, image("img/OR/schlechterfüllung.png", width: 90%))
 
-// TODO format mermaid
-//#align(center, image("img/OR/schlechterfüllung-2.png", width: 100%))
+#align(center, image("img/OR/schlechterfüllung-2.png", width: 72%))
 
 ==== Schuldnerverzug anhand des Kaufvertrages
  Der Schuldner gerät in Verzug, wenn eine fällige Forderung trotz Mahnung oder Verfalltag nicht erfüllt wird und keine verzugshindernden Gründe vorliegen.
@@ -359,7 +362,9 @@ Kurz gesagt:
   ],
 )
 
+#tip[
 *Merke:* Inhaltsmängel betreffen den Inhalt des Vertrags und führen grundsätzlich zur Nichtigkeit. Willensmängel betreffen die Willensbildung einer Partei und führen grundsätzlich zur Anfechtbarkeit.
+]
 
 === Wesentlicher Irrtum 
 *Grundlagenirrtum:* (Willensbildung)
@@ -384,14 +389,18 @@ Voraussetzungen Grundlagenirrtum:
 *Fristen:* Grundsatz: OR 127\
 *Ausnahmen:* OR 128, OR 128a, OR 60, OR 67 etc.\
 
+#tip[
 *Merke:* Gesetzliche Verjährungsfristen können vertraglich nicht abgeändert werden, aber es besteht die Möglichkeit, auf die Verjährungseinrede zu verzichten.
+]
 
 - Beginn mit Fälligkeit der Forderung (vgl. OR 130, OR 60/67)
 - Unterbrechung = Neubeginn der Verjährung
   - durch Schuldner: Anerkennung
   - durch Gläubiger: Betreibung, Klage, EIngabe im Konkurs
 
+#tip[
 *Merke:* Verjährung wird nicht von Amtes wegen berücksichtigt, sondern nur auf Einrede
+]
 
 ==== Beispiele
 *Wesentliche vertragliche Verjährungsfristen:*
