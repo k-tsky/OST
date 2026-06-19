@@ -1,6 +1,5 @@
 = Gesetzessammlung
 == Obligationenrecht
-
 #table(
   columns: (1fr, 1.4fr, 2.2fr),
   inset: 7pt,
@@ -53,13 +52,14 @@
 - *Art. 8 ZGB:* Beweisregel; wer Rechte aus einer Tatsache ableitet, muss sie beweisen.
 
 == Arbeitsrecht
-
-- *Arbeitsgesetz (ArG):* Regelt den öffentlich-rechtlichen Arbeitnehmerschutz in Industrie, Gewerbe und Handel. Dazu gehören insbesondere Arbeitszeit, Pausen, Ruhezeiten, Nacht- und Sonntagsarbeit sowie Schutzbestimmungen.
 - *ArGV 1:* Enthält Definitionen und Präzisierungen zum Arbeitsgesetz, z.B. zu Arbeitszeit, Pausen, Ruhezeiten, Nacht- und Sonntagsarbeit, Sonderschutz von Frauen sowie Organisation der Behörden.
 - *ArGV 2:* Enthält Sonderbestimmungen für bestimmte Betriebe oder Arbeitnehmergruppen. Sie erlaubt bei besonderen Verhältnissen Abweichungen von gesetzlichen Arbeits- und Ruhezeitvorschriften.
 - *ArGV 3:* Regelt den Gesundheitsschutz am Arbeitsplatz, z.B. Anforderungen an Räume, Gebäude, Arbeitsplätze und Schutzausrüstung.
 - *ArGV 4:* Betrifft industrielle Betriebe und regelt insbesondere anwendbare Vorschriften sowie das Plangenehmigungsverfahren.
 - *ArGV 5:* Schützt Gesundheit und Sicherheit von Jugendlichen bis zum 18. Altersjahr, etwa bei gefährlichen Arbeiten, Arbeitszeiten und Ruhezeiten.
+
+Erklärungen:
+- *Arbeitsgesetz (ArG):* Regelt den öffentlich-rechtlichen Arbeitnehmerschutz in Industrie, Gewerbe und Handel. Dazu gehören insbesondere Arbeitszeit, Pausen, Ruhezeiten, Nacht- und Sonntagsarbeit sowie Schutzbestimmungen.
 - *Obligationenrecht (OR):* Enthält die privatrechtlichen Regeln zum Arbeitsvertrag, insbesondere Rechte und Pflichten von Arbeitgeber und Arbeitnehmer.
 - *Berufsbildungsgesetz (BBG):* Regelt die Berufsbildung und ist besonders für Lehrverhältnisse relevant.
 - *Öffentlich-rechtliche Personalgesetze:* Gelten für Arbeitsverhältnisse im öffentlichen Dienst, z.B. kantonale Personalgesetze.
@@ -125,3 +125,26 @@
 - *Art. 406a OR:* Ehe- oder Partnerschaftsvermittlung gegen Vergütung.
 - *Art. 412 OR:* Mäklervertrag; Nachweis oder Vermittlung einer Vertragsgelegenheit gegen Vergütung.
 - *Art. 418a OR:* Agenturvertrag; dauernde Vermittlung oder Abschluss von Geschäften ohne Arbeitsverhältnis.
+
+== Haftpflicht- und Produkterecht
+- *Art. 41 OR:* Ausservertragliche Verschuldenshaftung; Schadenersatz bei widerrechtlicher, absichtlicher oder fahrlässiger Schädigung.
+- *Art. 197 OR:* Sachgewährleistung beim Kauf; Verkäufer haftet für zugesicherte Eigenschaften und erhebliche körperliche oder rechtliche Mängel.
+- *Art. 1 PrHG:* Grundsatz der Produktehaftpflicht; Hersteller haftet für Schäden durch fehlerhafte Produkte.
+- *Art. 2 PrHG:* Haftpflichtige Personen; Hersteller, Importeur und unter Umständen Händler.
+- *Art. 4 PrHG:* Fehlerhaftigkeit; Produkt ist fehlerhaft, wenn es nicht die berechtigte Sicherheit bietet.
+- *Art. 6 PrHG:* Selbstbehalt; Sachschäden werden nur ersetzt, soweit sie CHF 900 übersteigen.
+- *Art. 8 PrHG:* Haftungsbeschränkung gegenüber Geschädigten ist nichtig.
+- *Art. 9 PrHG:* Verjährung; Ansprüche verjähren drei Jahre ab Kenntnis von Schaden, Fehler und haftpflichtiger Person.
+- *Art. 10 PrHG:* Verwirkung; Anspruch erlischt spätestens zehn Jahre nach Inverkehrbringen des Produkts.
+
+== IT-Verträge
+- *Art. 97 ff. OR:* Allgemeine Haftung bei Nichterfüllung oder Schlechterfüllung; wichtig, wenn kein spezieller Vertragstyp passt.
+- *Art. 127 ff. OR:* Allgemeine Verjährungsregeln; relevant bei IT-Verträgen ohne besondere Verjährungsnorm.
+- *Art. 160 ff. OR:* Konventionalstrafe; häufig bei Verletzung von Service Levels/SLA.
+- *Art. 197 ff. OR:* Kaufrechtliche Gewährleistung; relevant bei Standardsoftware, Hardware oder kaufvertraglichen Elementen.
+- *Art. 363 ff. OR:* Werkvertragsrecht; relevant, wenn ein bestimmter Erfolg geschuldet ist, z.B. Softwareentwicklung oder Systemeinführung.
+- *Art. 394 ff. OR:* Auftragsrecht; relevant bei Beratung, Planung, Projektleitung oder nicht erfolgsbezogenen IT-Dienstleistungen.
+- *Art. 41 OR:* Ausservertragliche Haftung; Schadenersatz bei widerrechtlicher Schädigung.
+- *Art. 55 OR:* Geschäftsherrenhaftung; Haftung für Hilfspersonen/Angestellte.
+- *Art. 321e OR:* Haftung des Arbeitnehmers; relevant bei arbeitsrechtlichen Ansprüchen im IT-Kontext.
+- *PrHG:* Produktehaftung; relevant bei fehlerhafter Software/Hardware, soweit ein Produkt im Sinne des PrHG vorliegt.
