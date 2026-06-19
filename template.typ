@@ -1,9 +1,22 @@
 #let glossary_state = state("glossary", ())
 #let project_lang_state = state("project-lang", "en")
 
-#let accent_color = rgb("#b43b72")
-#let border_color = rgb("#ead0dc")
-#let soft_fill = rgb("#fff7fb")
+#let mist_lavender = rgb("#E6E6FA")
+#let dusty_lilac = rgb("#D8BFD8")
+#let orchid_mist = rgb("#DDA0DD")
+#let violet_haze = rgb("#9370DB")
+#let electric_violet = rgb("#8A2BE2")
+#let deep_plum = rgb("#3F1F5F")
+
+#let text_color = black
+#let accent_color = text_color
+#let decorative_color = violet_haze
+#let border_color = violet_haze
+#let soft_fill = mist_lavender
+#let muted_color = text_color
+#let heading_color = text_color
+#let quiet_line_color = violet_haze
+#let header_footer_color = text_color.transparentize(35%)
 
 #let language_labels(lang) = if lang == "de" {
   (
@@ -59,19 +72,24 @@
 
   // Base text settings
   set text(font: "Calibri", size: 11pt, lang: lang, region: region)
+  show link: set text(fill: text_color)
   project_lang_state.update(lang)
 
   // Numbered headings
   set heading(numbering: "1.")
+  show heading: set text(fill: heading_color)
+  show heading.where(level: 1): set text(size: 17pt, weight: 700, fill: heading_color)
+  show heading.where(level: 2): set text(size: 13.5pt, weight: 700, fill: heading_color)
+  show heading.where(level: 3): set text(size: 11.5pt, weight: 700, fill: accent_color)
 
   // Table styling
   set table(
-    inset: 7pt,
-    stroke: border_color,
-    fill: (_, y) => if y == 0 { accent_color },
+    inset: 6.5pt,
+    stroke: 0.45pt + border_color,
+    fill: (_, y) => if y == 0 { soft_fill },
   )
   show table.cell.where(y: 0): it => {
-    set text(fill: white, weight: 700)
+    set text(fill: heading_color, weight: 700)
     it
   }
 
@@ -81,20 +99,20 @@
     margin: (x: 2.5cm, y: 3cm),
     header: context {
       if counter(page).get().first() > 1 [
-        #set text(9pt, gray)
+        #set text(9pt, header_footer_color)
         #grid(
           columns: (1fr, 1fr),
           align(left, title),
           align(right, author-list.join(", "))
         )
         #v(-0.5em)
-        #line(length: 100%, stroke: 0.5pt + gray)
+        #line(length: 100%, stroke: 0.45pt + header_footer_color)
       ]
     },
     footer: context {
       if counter(page).get().first() > 1 [
-        #set text(8pt, gray)
-        #line(length: 100%, stroke: 0.5pt + gray)
+        #set text(8pt, header_footer_color)
+        #line(length: 100%, stroke: 0.45pt + header_footer_color)
         #v(-0.5em)
         #grid(
           columns: (1fr, 1fr),
@@ -115,7 +133,7 @@
 
       #if shown-subtitle != "" [
         #v(1em)
-        #text(size: 14pt, fill: gray, shown-subtitle)
+        #text(size: 14pt, shown-subtitle)
       ]
 
       #v(3cm)
@@ -139,17 +157,72 @@
   // ----------------
   // Table of contents
   // ----------------
-  heading(level: 1, numbering: none, outlined: false)[#labels.toc]
-  outline(title: none)
+  block[
+    #text(size: 17pt, weight: 700, fill: heading_color, labels.toc)
+    #v(0.6em)
+
+    #set text(size: 11.4pt)
+    #set par(leading: 0.38em)
+    #columns(2, gutter: 1.1cm)[
+      #show outline.entry.where(level: 1): strong
+      #outline(title: none, indent: 0pt)
+    ]
+  ]
 
   pagebreak()
 
   // ----------------
   // Body
   // ----------------
-  set par(justify: true)
+  set par(justify: false, leading: 0.58em)
   body
 }
+
+#let note(title: none, body) = {
+  grid(
+    columns: (1fr,),
+    block(
+      width: 100%,
+      inset: 8pt,
+      radius: 2pt,
+      stroke: (left: 2pt + decorative_color, rest: 0.45pt + border_color),
+      fill: soft_fill,
+    )[
+      #if title != none [
+        #text(weight: 700, fill: heading_color, title)
+        #v(0.25em)
+      ]
+      #body
+    ]
+  )
+}
+
+#let callout(title: none, accent: decorative_color, fill: soft_fill, width: 100%, body) = {
+  grid(
+    columns: (width,),
+    block(
+      width: 100%,
+      inset: 8pt,
+      radius: 2pt,
+      stroke: (left: 2pt + accent, rest: 0.45pt + border_color),
+      fill: fill,
+      above: 0.75em,
+      below: 0.75em,
+    )[
+      #if title != none [
+        #text(weight: 700, title)
+        #v(0.25em)
+      ]
+      #body
+    ]
+  )
+}
+
+#let definition(body) = callout(accent: violet_haze, width: 100%, body)
+#let tip(body) = callout(accent: electric_violet, width: 100%, body)
+#let warning(body) = callout(accent: deep_plum, width: 100%, body)
+#let formula(body) = callout(accent: violet_haze, fill: mist_lavender, width: 100%, body)
+#let example(body) = callout(accent: orchid_mist, width: 100%, body)
 
 // Optional glossary
 #let glossary-term(term) = {
@@ -172,12 +245,12 @@
     table(
       columns: (1.2fr, 2fr),
       align: (left, left),
-      inset: 7pt,
-      stroke: border_color,
-      fill: (_, y) => if y == 0 { accent_color } else { soft_fill },
+      inset: 6.5pt,
+      stroke: 0.45pt + border_color,
+      fill: (_, y) => if y == 0 { soft_fill },
       table.header(
-        [#text(fill: white, weight: 700, labels.term)],
-        [#text(fill: white, weight: 700, labels.location)],
+        [#text(fill: heading_color, weight: 700, labels.term)],
+        [#text(fill: heading_color, weight: 700, labels.location)],
       ),
       ..entries.map(entry => (
         [#text(weight: 700, entry.term)],
