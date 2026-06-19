@@ -15,55 +15,8 @@ quick references, and reusable Typst snippets while studying.
 
 Special thanks to [@melaurias](https://github.com/melaurias) for contributing and writing these summaries, cheat sheets, and notes.
 
-## Typst Copy-Paste Snippets
-
-Use this on top to get started with a new typst file:
-```typst
-#import "../template.typ": *
-#show: project.with(
-  title: "title",
-  authors: ("Katharina Tschirky"),
-  lang: "de", //optional, default is en
-  region: "CH", //optional, default is us
-)
-```
-
-The template adds title pages, headers/footers, table styling, localized labels,
-and an automatic glossary. Mark terms in the text with:
-
-```typst
-#glossary-term("Begriff")
-```
-
-Then print the glossary at the end:
-
-```typst
-#glossary()
-```
-
-This line is an example for adding a centered image:
-
-```typst
-#align(center, image("img/wrstat_07.png", width: 50%))
-```
-
-The final `\` inserts a line break in Typst and can be used as a quick spacing
-helper after the template setup.
-
-The following grid can be used to place contents next to each other:
-```typst
-#grid(
-  columns: (auto, auto),
-  gutter: 2em,
-  [
-    asdf
-  ],
-  [
-    blabla
-  ],
-)
-
-```
+## Typst Template
+A full manual on how to use the Typst template can be found in [template-manual.md](template-manual.md).
 
 ## Quizlet Resources
 
