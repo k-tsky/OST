@@ -53,10 +53,8 @@
 
 == Vertical Scaling Performance
 Notable laws:
--  Moore’s Law: nr. of transistors doubles
-every 2 years
-- Nielsen’s Law: a high-end user’s
-connection speed grows by 50% per year
+-  Moore’s Law: nr. of transistors doubles every 2 years
+- Nielsen’s Law: a high-end user’s connection speed grows by 50% per year
 - Kryder'S Law: Disk density doubles every 13 months
 - Best principal for small and simple applications -> Simple website with a few DB calls is not HW intensive
 - Bandwidth usually grows slower than computer power (conservative telecom/reluctant users).

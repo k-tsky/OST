@@ -48,7 +48,7 @@ The following grid can be used to place contents next to each other:
 
 ```
 
-### Callout Blocks
+## Callout Blocks
 
 Use callout blocks for important notes, definitions, examples, warnings, and
 formulas.

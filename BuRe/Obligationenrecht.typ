@@ -2,7 +2,7 @@
 = Obligationenrecht - Erklärungen
 == Entstehung einer Obligation
 - Vertrag (Art. 1 - 40 ff. OR)
-- unerlaubte Handlungen (Art. 41-61 OR
+- unerlaubte Handlungen (Art. 41-61 OR)
 - ungerechtfertigte Bereicherung (Art. 62-67 OR)
 
 andere Rechtsgründe:
@@ -38,7 +38,7 @@ Die Kollektiv- und Kommanditgesellschaften sind keine juristischen Personen, son
   columns: (auto, auto),
   gutter: 2em,
   [
-    *AT = Allgemeinter Teil*, Art. 1 bis 183 OR \
+    *AT = Allgemeiner Teil*, Art. 1 bis 183 OR \
     - Allg. regeln im OR (Vertragsschluss, Willensmangel etc.)
     *BT = Besonderer Teil*, ab Art. 184 OR
     - Vertragsarten (Kaufvertrag, Mietvertrag etc.)
@@ -184,7 +184,7 @@ Beispiele:
 - Wer noch nicht verfallene Mietzinse stillschweigend entgegennimmt, stimmt implizit einer Verlängerung der Miete zu.
 - Beauftragung eines Anwalts (Art. 395 OR)
 
-*Beipsiele weiteres schlüssiges Verhalten*
+*Beispiele weiteres schlüssiges Verhalten*
 - wortloses Hinlegen von Waren auf das Beförderungsband an der Kasse
 - wortloses Hinlegen des Kaufpreises am Kiosk
 - Einwurf von Münzen am Getränkeautomaten zum Kauf eines Süssgetränks
