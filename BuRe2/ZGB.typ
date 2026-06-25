@@ -66,6 +66,6 @@ Beispiele:
 
 Wichtige Ausnahmen und Erleichterungen:
 - #glossary-term("Beweislastumkehr"): Die Beweislast wird einer Partei zugeteilt, die sie normalerweise nicht tragen würde. (Art. 97 OR)
-- #glossary-term("Beweisnot"): Eine Partei müsste etwas beweisen, kann dies aber faktisch oder rechtlich kaum. Gericht kann in solchen Fällen die Anforderung an den Beweis erleichtern. (z.b Glaubhaftmachen genügt)
-  - Patient kann nicht beweisen, dass Arzt währen OP einen Kunstfehler gemacht hat, da er geistig nicht anwesend war
+- #glossary-term("Beweisnot"): Eine Partei müsste etwas beweisen, kann dies aber faktisch oder rechtlich kaum. Gericht kann in solchen Fällen die Anforderung an den Beweis erleichtern. (z.B. Glaubhaftmachen genügt)
+  - Patient kann nicht beweisen, dass Arzt während der OP einen Kunstfehler gemacht hat, da er geistig nicht anwesend war
 - #glossary-term("Beweiserleichterung"): Das Gericht senkt die Anforderungen an den Beweis; statt Vollbeweis genügt z. B. Glaubhaftmachen. Auch Beweislastumkehr kann hier geltend gemacht werden.

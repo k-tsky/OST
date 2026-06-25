@@ -370,7 +370,7 @@ Kurz gesagt:
 *Grundlagenirrtum:* (Willensbildung)
 - Wirklicher Wille = Erklärter Wille
 - Jedoch fehlerhafte Willensbildung
-- (Irrtum über eine notwendige Vertragsgrundlade)
+- (Irrtum über eine notwendige Vertragsgrundlage)
 - Art. 24 Abs. 1 Ziff 4 OR
 
 Voraussetzungen Grundlagenirrtum:
@@ -396,7 +396,7 @@ Voraussetzungen Grundlagenirrtum:
 - Beginn mit Fälligkeit der Forderung (vgl. OR 130, OR 60/67)
 - Unterbrechung = Neubeginn der Verjährung
   - durch Schuldner: Anerkennung
-  - durch Gläubiger: Betreibung, Klage, EIngabe im Konkurs
+  - durch Gläubiger: Betreibung, Klage, Eingabe im Konkurs
 
 #tip[
 *Merke:* Verjährung wird nicht von Amtes wegen berücksichtigt, sondern nur auf Einrede
@@ -406,7 +406,7 @@ Voraussetzungen Grundlagenirrtum:
 *Wesentliche vertragliche Verjährungsfristen:*
 
 - *Art. 127 OR:* 10 Jahre (generell)
-- *Art. 128 OR:* 5 Jahre (Miet-, Pacht-, und Kapitalzinse, Liferung von Lebensmittel, Handwerksarbeit etc)
+- *Art. 128 OR:* 5 Jahre (Miet-, Pacht- und Kapitalzinse, Lieferung von Lebensmitteln, Handwerksarbeit etc.)
 - *Art. 210 OR:* 2 und 5 Jahre bei Kaufgewährleistung
 - *Art. 371 OR:* 2 und 5 Jahre bei Werkgewährleistung
 - Die kurzen Gewährleistungsfristen gelten nicht bei absichtlicher Täuschung.

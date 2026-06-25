@@ -2,8 +2,7 @@
 = Haftpflichtrecht
 == Ausservertragliche Haftung
 === Verschuldenshaftung (Art. 41 OR)
-- Wer einem andern widerrechtlich Schaden zufügt, sei es mit Absicht, sei es aus Fahrlässigkeit, wird ihm zum
-Ersatze verpflichtet.
+- Wer einem andern widerrechtlich Schaden zufügt, sei es mit Absicht, sei es aus Fahrlässigkeit, wird ihm zum Ersatze verpflichtet.
 - Ebenso ist zum Ersatze verpflichtet, wer einem andern in einer gegen die guten Sitten verstossenden Weise absichtlich Schaden zufügt. 
 
 Voraussetzungen:
@@ -68,7 +67,7 @@ Hersteller kann sich aus folgenden Gründen exkulpieren:
 - Produkt nicht in Verkehr gebracht;
 - Fehler bei Inverkehrsetzung noch nicht vorhanden;
 - Produkt für den Verkauf oder eine Art des Vertriebs mit wirtschaftlichem Zweck oder im Rahmen der beruflichen Tätigkeit hergestellt bzw. vertrieben;
-- Fehler ist darauf zurück zu führen, dass das Produkt verbindlichen, hoheitlich erlassenen Vorschriften entspricht;
+- Fehler ist darauf zurückzuführen, dass das Produkt verbindlichen, hoheitlich erlassenen Vorschriften entspricht;
 - Fehler konnte nach dem Stand der Wissenschaft und Technik im Zeitpunkt, in dem das Produkt in Verkehr gebracht wurde, nicht erkannt werden (Beachte Ausnahmen nach Art. 5 Abs. 1bis PrHG).
 - Eine Ausnahme besteht auch für den Hersteller eines Grundstoffs oder eines Teilprodukts, wenn der Fehler erst mit der weiteren Verarbeitung entstanden ist.
 

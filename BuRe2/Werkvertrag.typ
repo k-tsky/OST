@@ -2,7 +2,7 @@
 = Werkvertrag (Art. 363 OR)
 - Kann formfrei geschlossen werden
 - Gegenstand eines Werkvertrages kann die Erstellung aber auch die Veränderung (z.B. Reparatur, Bearbeitung, Veredelung) einer Sache sein.
-  - Bspw.: Tuning, Herstellung eines Eherings, Haarschnitt, Hausbau, Anfertigen eines Möbelstücks, Bauplan des Ingenieurs, Anzug nach Mass, Autoreparatur, Aufbau einer umfassenden und «massgeschneiderten» IT- Landschaft
+  - Bspw.: Tuning, Herstellung eines Eherings, Haarschnitt, Hausbau, Anfertigen eines Möbelstücks, Bauplan des Ingenieurs, Anzug nach Mass, Autoreparatur, Aufbau einer umfassenden und «massgeschneiderten» IT-Landschaft
 
 == Höhe der Vergütung
 #definition[
@@ -59,7 +59,7 @@ Betrifft: Art. 368 OR, Art. 367 OR, Art. 219a OR, Art. 371 OR
 
 #align(center, image("img/Werkvertrag/Artikel.png", width: 100%))
 
-=== Folgen bei Mängel
+=== Folgen bei Mängeln
 - *Wandelung (Art. 368 Abs. 1 OR):* Rücktritt bei erheblichen Mängeln oder starker Vertragsabweichung, wenn Annahme unzumutbar ist.
   - Bei fest mit Grundstück verbundenem Werk nur, wenn die Beseitigung keine unverhältnismässigen Nachteile bringt.
 - *Minderung (Art. 368 Abs. 2 OR):* Werklohn wird nach dem Minderwert gekürzt.

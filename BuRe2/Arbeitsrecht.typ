@@ -31,8 +31,8 @@ Beim Auftrag übernimmt der Beauftragte die Pflicht, im Interesse des Auftraggeb
 
 === Abgrenzung
 Werkvertrag = Erfolg geschuldet\
-Arbeitsvertrag = Sorgfältiges Tätigwerden und Suboridnation/Eingliederung in Betrieb\
-Auftrag = Sorgfälltiges Tätigwerden
+Arbeitsvertrag = Sorgfältiges Tätigwerden und Subordination/Eingliederung in Betrieb\
+Auftrag = Sorgfältiges Tätigwerden
 
 == Rechtsgrundlagen zum Arbeitsrecht
 #align(center, image("img/Arbeitsrecht/Rechtsgrundlagen.png", width: 100%))
@@ -171,13 +171,13 @@ Lohnarten:
 
 === Lohn bei Verhinderung der Arbeitsleistung (Art. 324 ff. OR)
 - Arbeitnehmer ist arbeitsbereit, kann aber wegen des Arbeitgebers nicht arbeiten
-- Beispiel: Arbeitgeber nimmt die angebotene Arbeit nicht (z.b Zutrittsverweigerung) an oder stellt nötige Arbeitsmittel/Schutzmassnahmen nicht bereit
+- Beispiel: Arbeitgeber nimmt die angebotene Arbeit nicht (z.B. Zutrittsverweigerung) an oder stellt nötige Arbeitsmittel/Schutzmassnahmen nicht bereit
 - Folge: Lohn bleibt geschuldet, obwohl keine Arbeit geleistet wird
 - Arbeitnehmer muss die ausgefallene Arbeit nicht nachholen
 - Kein Anspruch bei objektiven Gründen ausserhalb des Betriebsrisikos, z.B. Krieg, Einfuhrverbote oder unzumutbare rechtliche Risiken
 
 === Lohnfortzahlung bei Verhinderung des Arbeitnehmers (Art. 324a OR)
-Gründe die in seiner Person liegen:
+Gründe, die in seiner Person liegen:
 - z.B. Krankheit, Unfall, Schwangerschaft, Militärdienst, Zivildienst, Arztbesuch, Umzug, Heirat oder Pflege Angehöriger
 
 Verschuldensart:
@@ -235,11 +235,11 @@ Soll enthalten:
 - Werturteilen (übliche Massstäbe)
 - Vollständigkeit 
 - Wahrheitsgetreue Aussagen
-- Aussagen die nicht in Zusammenhang mit dem Arbeitsverhältnis stehen sind unzulässig
+- Aussagen, die nicht in Zusammenhang mit dem Arbeitsverhältnis stehen, sind unzulässig
 - Wohlwollende Formulierung
   - Jedoch: Negative Tatsachen dürfen/müssen im Zeugnis erwähnt werden, sofern sie für die Gesamtbeurteilung des Arbeitnehmers erheblich sind
 - Unzulässigkeit zweideutiger Formulierungen (Klarheit)
-  - z.b "er war stets bemüht"
+  - z.B. "er war stets bemüht"
 
 == Beendigung des Arbeitsverhältnisses
 Möglichkeiten beim Einzelarbeitsvertrag:
@@ -261,7 +261,7 @@ Möglichkeiten beim Einzelarbeitsvertrag:
 - Kündigung ist formfrei, sofern der Arbeitsvertrag nichts anderes vorsieht
 - Auf Verlangen der anderen Partei muss die Kündigung schriftlich begründet werden (Art. 335 Abs. 2 OR)
 
-*Kündigungsfristen (insofern nicht anders vereinbart):*
+*Kündigungsfristen (sofern nicht anders vereinbart):*
 - 1. Dienstjahr: 1 Monat
 - 2. - 9. Dienstjahr: 2 Monate
 - Ab dem 10. Dienstjahr: 3 Monate
@@ -274,7 +274,7 @@ Kündigungsfrist darf nicht unter einem Monat sein, ausser es ist im GAV anders 
   - Bei befristeten Arbeitsverhältnissen gibt es grundsätzlich keine Probezeit
 - Kündigungsfrist von 7 Kalendertagen in der Probezeit. Kann anders definiert werden.
 - Keinen Kündigungsschutz während Probezeit (beidseitig)
-- Verlängerung nur unter Bedingungen (z.b Unfall, Krankheit)
+- Verlängerung nur unter Bedingungen (z.B. Unfall, Krankheit)
 
 #align(center, image("img/Arbeitsrecht/Probezeit.png", width: 100%))
 
@@ -295,7 +295,7 @@ Kündigungsfrist darf nicht unter einem Monat sein, ausser es ist im GAV anders 
 
 *Fristen:*
 - Einsprachefrist (bis zum Ablauf der Kündigungsfrist)
-- Klagefrist (180n Tage nach Beendigung des Arbeitsverhältnisses)
+- Klagefrist (180 Tage nach Beendigung des Arbeitsverhältnisses)
 
 #tip[
 Merke: Bei der Klagefrist handelt es sich um eine #glossary-term("Verwirkungsfrist"): Frist, nach deren Ablauf ein Anspruch endgültig nicht mehr durchgesetzt werden kann, d.h. der Richter beachtet diese von Amtes wegen.
@@ -378,12 +378,12 @@ Merke: Der Grund muss auch hier gravierend sein. Bei geringeren Problemen hat au
 ]
 
 Folgen:
-- Schadensersatz muss geleistet werden
+- Schadenersatz muss geleistet werden
 - Ansonsten nach richterlichen Ermessen
 
 Folgen bei ungerechtfertigter fristloser Kündigung (Art. 337c OR):
 - Lohnersatz bis zum ordentlichen Vertragsende
-- Anrechnung von Ersparnissen und anderweitigem Verdienst
+- Abzug von Ersparnissen und anderweitigem Verdienst
 - Zusätzliche Entschädigung nach Ermessen des Richters, max. 6 Monatslöhne
 
 == Rechte an Erfindung und Designs (Art. 332 OR)

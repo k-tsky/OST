@@ -11,7 +11,7 @@
 - Kann formfrei geschlossen werden
 - Auftrag vertragsgemäss ausführen, Erfolg jedoch nicht geschuldet (jedoch anstreben)
 - Mögliche Gegenstände eines Auftrages: jegliche persönliche Handlungen
-- Vorraussetzung eines Auftrages: Tätigwerden in fremden Interesse
+- Voraussetzung eines Auftrages: Tätigwerden in fremdem Interesse
 - Der Auftrag kann sowohl *#glossary-term("Rechtshandlung"):* Handlung mit rechtlicher Wirkung, z.B. Vertragsschluss, als auch *#glossary-term("Tathandlung"):* tatsächliche Handlung ohne unmittelbaren Rechtsakt, z.B. Beratung oder Behandlung, betreffen.
 - Er dient als #glossary-term("Auffangvertrag"): Vertragstyp für Dienstleistungen, die keinem Spezialvertrag zugeordnet sind.
 #example[

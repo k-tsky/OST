@@ -29,14 +29,13 @@ Wo die Bestimmungen des OR BT nicht oder nur beschränkt angewendet werden könn
 - *Cloud Services:*
   - Infrastructure as a Service (IaaS) = Bereitstellung von Speicher, Netzwerk, Servern und Virtualisierung (Bspw. IBM Cloud, Google Compute Engine, Amazon Web Services und Microsoft Azure)
   - Software as a Service (SaaS) = Lizenz- und Vertriebsmodell, mit dem Software-Anwendungen über das Internet, d.h. als Service, angeboten werden. Die Nutzung erfolgt in der Regel auf Abonnementbasis. SaaS wird auf Remote-Servern betrieben und vom Anbieter verwaltet, aktualisiert und gewartet. (Bspw. Dropbox, Microsoft Office oder Google Apps)
-  -  Platform as a Service (PaaS) = Plattform kann über das Internet genutzt werden und bietet Nutzern sowohl ein Framework als auch passsende Tools, um Applikationen und Software zu entwickeln. (Bspw. Windows Azure, SAP Cloud oder Google App Engine)
+  -  Platform as a Service (PaaS) = Plattform kann über das Internet genutzt werden und bietet Nutzern sowohl ein Framework als auch passende Tools, um Applikationen und Software zu entwickeln. (Bspw. Windows Azure, SAP Cloud oder Google App Engine)
 - *Hardwareverkaufsvertrag*
 - *Softwareentwicklungsvertrag:* Entwickler erstellt eine Software-Applikation nach den konkreten Vorgaben des Bestellers
 - *Roamingverträge:* Nutzung des mobilen Endgerätes in einem ausländischen Netz für Telefonate, Nachrichten und mobile Daten
 - *Software-Distributionsvertrag:* Hersteller oder Lieferant beauftragt einen Vertreiber mit dem Verkauf seiner Produkte
 - *Hosting-Dienstleistungen:* Überlassung von Speicherplatz auf der Serverinfrastruktur des Anbieters für die Website oder Applikation des Kunden sowie die Erbringung dazugehöriger Dienstleistungen.
-- *Konzeption/Realisierung einer Web-Applikation:* Softwareprogramm, das auf einem Webserver ausgeführt wird. Im
-Gegensatz zu Desktop-Anwendungen, die lokal auf einem Computer installiert werden, muss auf Webanwendungen über einen Webbrowser zugegriffen werden. Bspw. Webshop oder Internet-BankingProgramme, Evernote, Google Apps, Pocket.
+- *Konzeption/Realisierung einer Web-Applikation:* Softwareprogramm, das auf einem Webserver ausgeführt wird. Im Gegensatz zu Desktop-Anwendungen, die lokal auf einem Computer installiert werden, muss auf Webanwendungen über einen Webbrowser zugegriffen werden. Bspw. Webshop oder Internet-Banking-Programme, Evernote, Google Apps, Pocket.
 - *Erstellen einer Website*
 
 == Leistungsstörungen
@@ -147,7 +146,7 @@ vereinbart haben:
     - Ergänzung oft durch Service Level Agreements
   ],
   [
-    #align(center, image("img/IT-Verträge/Vertragsstrukutr.png", width: 110%))
+    #align(center, image("img/IT-Verträge/Vertragsstruktur.png", width: 110%))
   ],
 )
 
@@ -156,7 +155,7 @@ vereinbart haben:
 - Macht Leistungen messbar, z.B. Verfügbarkeit, Reaktionszeit oder Supportumfang
 - Strategische und kommerzielle Kernpunkte gehören in den Hauptvertrag, nicht nur ins SLA
 
-*Phasen des Outsourcingvertrag:* (sollte darüber Auskunft geben können)
+*Phasen des Outsourcingvertrags:* (sollte darüber Auskunft geben können)
 - Auslagerung der IT-Infrastruktur
 - Anschliessender Betrieb
 - Rückübertragung
